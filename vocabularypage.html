@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    日日背單字 | vocabularyPage
+  </title>
+  <script src="https://kit.fontawesome.com/4d58487456.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body class="bg-light">
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-xxl-2 pb-3 order-xxl-0 order-0">
+        <div class="navMain bg-third d-flex flex-column h-100">
+          <img src="./assets/images/navUp.svg" alt="navUp" class="navUp d-none d-xxl-block">
+          <img src="./assets/images/navDown.svg" alt="navDown" class="navDown d-none d-xxl-block">
+          <div class="navBar mx-3 mx-xxl-auto my-3 my-xxl-11 d-flex justify-content-between">
+            <h1 class="">
+              <a href="#" class="d-block">
+                <img src="./assets/images/logo.svg" alt="logo" class="d-none d-xxl-block">
+                <img src="./assets/images/smallLogo.svg" alt="logo" class="d-block d-xxl-none">
+              </a>
+            </h1>
+            <a class="btn p-0 btnMenu" data-bs-toggle="collapse" href="#menu" role="button" aria-expanded="false"
+              aria-controls="menu">
+              <span class="material-symbols-outlined d-block d-xxl-none">
+                menu
+              </span>
+            </a>
+          </div>
+          <ul class="navList d-flex flex-xxl-column d-none d-xxl-block">
+            <li class="navListItem active py-3 fs-2 w-100">
+              <a href="./home.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/indexIcon.svg" alt="indexIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">首頁</a>
+            </li>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="./vocabulary.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/wordIcon.svg" alt="wordIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">單字庫</a>
+            </li>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/favoriteIcon.svg" alt="Icon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">收藏夾</a>
+            </li>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/textIcon.svg" alt="textIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">測驗</a>
+            </li>
+          </ul>
+          <div class="collapse" id="menu">
+            <ul class="navList d-flex flex-wrap d-xxl-none">
+              <li class="navListItem active py-2 py-md-3 fs-2 w-50 text-center">
+                <a href="./home.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/indexIcon.svg" alt="indexIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">首頁</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="./vocabulary.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/wordIcon.svg" alt="wordIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">單字庫</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/favoriteIcon.svg" alt="Icon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">收藏夾</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/textIcon.svg" alt="textIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">測驗</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+<div class="col-12 col-xxl-10 vocabularys">
+    <div
+        class="vocabularysTitle pt-0 pt-md-4 pb-3 d-flex justify-content-between flex-wrap border-bottom border-success border-3">
+        <nav aria-label="breadcrumb" class="text-secondary">
+            <ol class="breadcrumb mb-0 pb-2 pb-md-0">
+                <li class="breadcrumb-item"><a href="./vocabulary.html">單字庫</a></li>
+                <li class="breadcrumb-item active" aria-current="page">日文檢定</li>
+            </ol>
+        </nav>
+        <div class="searchGroup d-flex align-items-center">
+            <label for="search" class="search">
+                <input type="text" name="search" id="search" placeholder="請輸入要查的單字" class="searchText">
+                <botton class="btn bg-danger searchBtn py-1 px-3">
+                    <span class="material-symbols-outlined align-middle">
+                        saved_search
+                    </span>
+                </botton>
+            </label>
+        </div>
+    </div>
+    <div class="vocabularysBody pt-6 pb-3">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-5 mx-3">
+            <div class="col mb-6">
+                <a href="./vocabularypagen1.html" class="card h-100 bg-success border-0">
+                    <img src="./assets/images/vpage-one.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-success text-third rounded-bottom d-flex justify-content-between">
+                        <h5 class="card-title fs-3 mb-0 align-self-center">N1</h5>
+                        <img src="./assets/images/del.png" alt="del" class="del">
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-6">
+                <a href="#" class="card h-100 border-0">
+                    <img src="./assets/images/vpage-two.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-primary text-third rounded-bottom d-flex justify-content-between">
+                        <h5 class="card-title fs-3 mb-0 align-self-center">N2</h5>
+                        <img src="./assets/images/del.png" alt="del" class="del">
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-6">
+                <a href="#" class="card h-100 border-0">
+                    <img src="./assets/images/vpage-three.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-secondary text-third rounded-bottom d-flex justify-content-between">
+                        <h5 class="card-title fs-3 mb-0 align-self-center">N3</h5>
+                        <img src="./assets/images/del.png" alt="del" class="del">
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-6">
+                <a href="#" class="card h-100 border-0">
+                    <img src="./assets/images/vpage-fore.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-success text-third rounded-bottom d-flex justify-content-between">
+                        <h5 class="card-title fs-3 mb-0 align-self-center">N4</h5>
+                        <img src="./assets/images/del.png" alt="del" class="del">
+                    </div>
+                </a>
+            </div>
+            <div class="col mb-6">
+                <a href="#" class="card h-100 border-0">
+                    <img src="./assets/images/vpage-five.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-primary text-third rounded-bottom d-flex justify-content-between">
+                        <h5 class="card-title fs-3 mb-0 align-self-center">N5</h5>
+                        <img src="./assets/images/del.png" alt="del" class="del">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <botton class="btn plus bg-danger text-third">
+            <span class="material-symbols-outlined align-middle py-2 px-3">
+                add
+            </span>
+        </botton>
+    </div>
+</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p class="text-center bg-primary text-third py-2 ">Copyright © 2022 日日背單字. All Rights Reserved.</p>
+  </div>
+  <script src=" ./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

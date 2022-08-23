@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    日日背單字 | vocabularyPageN1
+  </title>
+  <script src="https://kit.fontawesome.com/4d58487456.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body class="bg-light">
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-xxl-2 pb-3 order-xxl-0 order-0">
+        <div class="navMain bg-third d-flex flex-column h-100">
+          <img src="./assets/images/navUp.svg" alt="navUp" class="navUp d-none d-xxl-block">
+          <img src="./assets/images/navDown.svg" alt="navDown" class="navDown d-none d-xxl-block">
+          <div class="navBar mx-3 mx-xxl-auto my-3 my-xxl-11 d-flex justify-content-between">
+            <h1 class="">
+              <a href="#" class="d-block">
+                <img src="./assets/images/logo.svg" alt="logo" class="d-none d-xxl-block">
+                <img src="./assets/images/smallLogo.svg" alt="logo" class="d-block d-xxl-none">
+              </a>
+            </h1>
+            <a class="btn p-0 btnMenu" data-bs-toggle="collapse" href="#menu" role="button" aria-expanded="false"
+              aria-controls="menu">
+              <span class="material-symbols-outlined d-block d-xxl-none">
+                menu
+              </span>
+            </a>
+          </div>
+          <ul class="navList d-flex flex-xxl-column d-none d-xxl-block">
+            <li class="navListItem active py-3 fs-2 w-100">
+              <a href="./home.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/indexIcon.svg" alt="indexIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">首頁</a>
+            </li>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="./vocabulary.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/wordIcon.svg" alt="wordIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">單字庫</a>
+            </li>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/favoriteIcon.svg" alt="Icon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">收藏夾</a>
+            </li>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/textIcon.svg" alt="textIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">測驗</a>
+            </li>
+          </ul>
+          <div class="collapse" id="menu">
+            <ul class="navList d-flex flex-wrap d-xxl-none">
+              <li class="navListItem active py-2 py-md-3 fs-2 w-50 text-center">
+                <a href="./home.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/indexIcon.svg" alt="indexIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">首頁</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="./vocabulary.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/wordIcon.svg" alt="wordIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">單字庫</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/favoriteIcon.svg" alt="Icon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">收藏夾</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/textIcon.svg" alt="textIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">測驗</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+
+<div class="col-12 col-xxl-10 vocabularyspagen1">
+    <div
+        class="vocabularysTitle pt-0 pt-md-4 pb-3 d-flex justify-content-between flex-wrap border-bottom border-success border-3">
+        <nav aria-label="breadcrumb" class="text-secondary">
+            <ol class="breadcrumb mb-0 pb-2 pb-md-0">
+                <li class="breadcrumb-item"><a href="./vocabulary.html">單字庫</a></li>
+                <li class="breadcrumb-item"><a href="./vocabularypage.html">日文檢定</a></li>
+                <li class="breadcrumb-item active" aria-current="page">N1</li>
+            </ol>
+        </nav>
+        <div class="searchGroup d-flex align-items-center">
+            <label for="search" class="search">
+                <input type="text" name="search" id="search" placeholder="請輸入要查的單字" class="searchText">
+                <botton class="btn bg-danger searchBtn py-1 px-3">
+                    <span class="material-symbols-outlined align-middle">
+                        saved_search
+                    </span>
+                </botton>
+            </label>
+        </div>
+    </div>
+    <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed fs-4 bg-success text-third" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                    aria-controls="flush-collapseOne">
+                    <span class="material-symbols-outlined me-3">
+                        library_add
+                    </span>
+                    新增
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse row word" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body row word">
+                    <div class="col-12 col-lg-6">
+                        <form action="" class="d-flex justify-content-start flex-wrap">
+                            <div class="kanjigroup mx-3 mb-5 mt-2">
+                                <input type="text" class="kanji" required>
+                                <div class="underline"></div>
+                                <label>中文</label>
+                            </div>
+                            <div class="hirakaragroup mx-3 mb-5 mt-2">
+                                <input type="text" class="hirakara" required>
+                                <div class="underline"></div>
+                                <label>読み方</label>
+                            </div>
+                            <div class="accentgroup mx-3 mb-5 mt-2">
+                                <input type="number" class="accent" required>
+                                <div class="underline"></div>
+                                <label>重音</label>
+                            </div>
+                            <div class="explaingroup mx-3 mb-5 mb-xl-0 mt-2">
+                                <input type="text" class="explain" required>
+                                <div class="underline"></div>
+                                <label>解釋</label>
+                            </div>
+                            <div class="sentencegroup mx-3 mb-5 mb-xl-0 mt-2">
+                                <input type="text" class="sentence" required>
+                                <div class="underline"></div>
+                                <label>造句</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex flex-column flex-xl-row mb-3">
+                        <div class="part d-flex align-content-around flex-wrap">
+                            <button type="button"
+                                class="btn btn-outline-primary mt-2 mb-3 mx-4 mx-md-2 px-4 fs-4 border-3 bg-secondary">名</button>
+                            <button type="button"
+                                class="btn btn-outline-primary mt-2 mb-3 mx-4 mx-md-2 px-4 fs-4 border-3 bg-secondary">動</button>
+                            <button type="button"
+                                class="btn btn-outline-primary mt-2 mb-3 mx-4 mx-md-2 px-4 fs-4 border-3 bg-secondary">い</button>
+                            <button type="button"
+                                class="btn btn-outline-primary mt-2 mb-3 mx-4 mx-md-2 px-4 fs-4 border-3 bg-secondary">な</button>
+                            <button type="button"
+                                class="btn btn-outline-primary mt-2 mb-3 mx-4 mx-md-2 px-4 fs-4 border-3 bg-secondary">副</button>
+                            <button type="button"
+                                class="btn btn-outline-primary mt-2 mb-3 mx-4 mx-md-2 px-4 fs-4 border-3 bg-secondary">連</button>
+                            <button type="button"
+                                class="btn btn-outline-primary mt-2 mb-3 mx-4 mx-md-2 px-4 fs-4 border-3 bg-secondary">接</button>
+                            <button type="button"
+                                class="btn btn-outline-primary mt-2 mb-3 mx-4 mx-md-2 px-4 fs-4 border-3 bg-secondary">感</button>
+                        </div>
+                        <div class="send d-flex align-items-md-center align-items-xxl-start">
+                            <button type="button"
+                                class="btn btn-danger py-7 px-7 mt-3 mt-xl-0 ms-2 ms-xl-0 border-3 border-primary">
+                                <span class="material-symbols-outlined align-middle">
+                                    add
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-4 wordlist mt-3 pb-3 justify-content-start">
+        <div class="col my-3">
+
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p class="text-center bg-primary text-third py-2 ">Copyright © 2022 日日背單字. All Rights Reserved.</p>
+  </div>
+  <script src=" ./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

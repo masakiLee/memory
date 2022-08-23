@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="133" viewBox="0 0 128 133">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d2d51;
+      }
+
+      .cls-2 {
+        filter: url(#tagblue1);
+      }
+    </style>
+    <filter id="tagblue1" x="0" y="0" width="128" height="133" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="tagblue1-2" data-name="tagblue1" class="cls-1" d="M298.7,247.2l-49.5-51.75a9.788,9.788,0,0,0-7.7-3.45H203c-6.6,0-11,4.6-11,11.5v40.25a10.667,10.667,0,0,0,3.3,8.05l49.5,51.75a10.318,10.318,0,0,0,15.4,0l38.5-40.25A11.469,11.469,0,0,0,298.7,247.2ZM225,226.5a8.367,8.367,0,0,1-12.1,0,9.319,9.319,0,0,1,0-12.65,8.367,8.367,0,0,1,12.1,0A9.319,9.319,0,0,1,225,226.5Z" transform="translate(-183 -186)"/>
+  </g>
+</svg>

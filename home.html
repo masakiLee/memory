@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    日日背單字 | home
+  </title>
+  <script src="https://kit.fontawesome.com/4d58487456.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body class="bg-light">
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-xxl-2 pb-3 order-xxl-0 order-0">
+        <div class="navMain bg-third d-flex flex-column h-100">
+          <img src="./assets/images/navUp.svg" alt="navUp" class="navUp d-none d-xxl-block">
+          <img src="./assets/images/navDown.svg" alt="navDown" class="navDown d-none d-xxl-block">
+          <div class="navBar mx-3 mx-xxl-auto my-3 my-xxl-11 d-flex justify-content-between">
+            <h1 class="">
+              <a href="#" class="d-block">
+                <img src="./assets/images/logo.svg" alt="logo" class="d-none d-xxl-block">
+                <img src="./assets/images/smallLogo.svg" alt="logo" class="d-block d-xxl-none">
+              </a>
+            </h1>
+            <a class="btn p-0 btnMenu" data-bs-toggle="collapse" href="#menu" role="button" aria-expanded="false"
+              aria-controls="menu">
+              <span class="material-symbols-outlined d-block d-xxl-none">
+                menu
+              </span>
+            </a>
+          </div>
+          <ul class="navList d-flex flex-xxl-column d-none d-xxl-block">
+            <li class="navListItem active py-3 fs-2 w-100">
+              <a href="./home.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/indexIcon.svg" alt="indexIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">首頁</a>
+            </li>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="./vocabulary.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/wordIcon.svg" alt="wordIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">單字庫</a>
+            </li>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/favoriteIcon.svg" alt="Icon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">收藏夾</a>
+            </li>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/textIcon.svg" alt="textIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">測驗</a>
+            </li>
+          </ul>
+          <div class="collapse" id="menu">
+            <ul class="navList d-flex flex-wrap d-xxl-none">
+              <li class="navListItem active py-2 py-md-3 fs-2 w-50 text-center">
+                <a href="./home.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/indexIcon.svg" alt="indexIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">首頁</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="./vocabulary.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/wordIcon.svg" alt="wordIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">單字庫</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/favoriteIcon.svg" alt="Icon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">收藏夾</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/textIcon.svg" alt="textIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">測驗</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+<div class="col-xxl-7 order-xxl-1 order-2 pb-3 main">
+    <div class="daily">
+        <h2 class="fs-1 pt-5 pb-3 text-secondary">一日一句</h2>
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active fs-2 py-2 py-md-2 px-4 px-md-9" id="nav-home-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                    aria-selected="true">句子</button>
+                <button class="nav-link fs-2 py-2 py-md-2 px-4 px-md-9" id="nav-profile-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                    aria-selected="false">中譯</button>
+            </div>
+        </nav>
+        <div class="tab-content bg-third text-primary py-4 ps-2 ps-md-6" id="nav-tabContent">
+            <div class="tab-pane fade show active px-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <i class="tabTextBar"></i>
+                <span class="tabText fs-2">「明日やろう」じゃなくて「今やろう」</span>
+            </div>
+            <div class="tab-pane fade text-primary px-3" id="nav-profile" role="tabpanel"
+                aria-labelledby="nav-profile-tab">
+                <i class="tabTextBar me-3"></i>
+                <span class="tabText fs-2">不是明天再做 是現在就行動</span>
+            </div>
+        </div>
+    </div>
+    <div class="recommend d-none d-md-block">
+        <h2 class="fs-1 pt-5 pb-3 text-danger d-flex justify-content-between align-items-end">推薦<a
+                href="./vocabulary.html" class="fs-5 text-primary"><span>看更多</span>
+        </h2></a>
+        <ul class="recommendBox d-flex">
+            <li class="pic">
+                <a href="./vocabularypage.html">
+                    <img src="./assets/images/one.png" alt="one" class="h-100"></img>
+                    <h3 class="title fs-3 py-2">檢定</h3>
+                </a>
+            </li>
+            <li class="pic">
+                <a href="">
+                    <img src="./assets/images/two.png" alt="two" class="h-100"></img>
+                    <h3 class="title fs-3 py-2">旅遊</h3>
+                </a>
+            </li>
+            <li class="pic">
+                <a href="">
+                    <img src="./assets/images/three.png" alt="three" class="h-100"></img>
+                    <h3 class="title fs-3 py-2">交通</h3>
+                </a>
+            </li>
+            <li class="pic">
+                <a href="">
+                    <img src="./assets/images/fore.png" alt="fore" class="h-100"></img>
+                    <h3 class="title fs-3 py-2">職場</h3>
+                </a>
+            </li>
+            <li class="pic">
+                <a href="">
+                    <img src="./assets/images/five.png" alt="five" class="h-100"></img>
+                    <h3 class="title fs-3 py-2">美食</h3>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="recommendColunm d-block d-md-none">
+        <h2 class="fs-1 pt-5 pb-3 text-danger d-flex justify-content-between align-items-end">推薦<a
+                href="./vocabulary.html" class="fs-5 text-primary"><span>看更多</span>
+        </h2></a>
+        <ul class="recommendBoxColunm">
+            <li class="pic">
+                <a href="./vocabularypage.html">
+                    <img src="./assets/images/one-1.png" alt="one" class="img-fluid"></img>
+                    <h3 class="title fs-4 py-2">檢定</h3>
+                </a>
+            </li>
+            <li class="pic">
+                <a href="">
+                    <img src="./assets/images/two-2.png" alt="two" class="img-fluid"></img>
+                    <h3 class="title fs-4 py-2">旅遊</h3>
+                </a>
+            </li>
+            <li class="pic">
+                <a href="">
+                    <img src="./assets/images/three-3.png" alt="three" class="img-fluid"></img>
+                    <h3 class="title fs-4 py-2">交通</h3>
+                </a>
+            </li>
+            <li class="pic">
+                <a href="">
+                    <img src="./assets/images/fore-4.png" alt="fore" class="img-fluid"></img>
+                    <h3 class="title fs-4 py-2">職場</h3>
+                </a>
+            </li>
+            <li class="pic">
+                <a href="">
+                    <img src="./assets/images/five-5.png" alt="five" class="img-fluid"></img>
+                    <h3 class="title fs-4 py-2">美食</h3>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="col-xxl-3 order-xxl-2 order-1 pt-4 px-2 px-xxl-3 pb-2">
+    <div class="personal d-flex flex-xxl-column flex-lg-row">
+        <div class="file d-flex justify-content-start justify-content-xxl-end align-items-md-center w-100">
+            <div class="greet me-0 me-md-3 ms-0 ms-md-4 order-2 order-xxl-0 align-self-center">
+                <p class="fs-4 text-secondary d-none d-md-block">こんにちは</p>
+                <p class="name fs-2 fw-bold text-start text-xxl-end ps-4 ps-md-0">Masaki</p>
+            </div>
+            <img src="./assets/images/photo.png" alt="photo" class="photo bg-success rounded-3 order-0 order-xxl-2">
+        </div>
+        <div class="check pt-0 pt-xxl-3 flex-shrink-0">
+            <div
+                class="checkBox border border-secondary border-5 px-2 px-md-3 d-flex justify-content-around align-items-center py-2">
+                <div class="icon">
+                    <a href="" class="">
+                        <img src="./assets/images/punck.svg" alt="打卡ICON">
+                        <p class="text-center text-primary pt-1 fs-4 d-none d-xxl-block">簽到</p>
+                    </a>
+                </div>
+                <div class="checkBar mx-3 mx-xxl-0 d-none d-md-block"></div>
+                <div class="time flex-row d-none d-md-block">
+                    <p class="fs-3 d-inline-flex d-xxl-flex d-none d-md-block">已連續簽到</p>
+                    <p class="day d-inline-flex d-xxl-flex fs-2 justify-content-xxl-center text-danger">23232</p>
+                    <p class="fs-4 d-inline-flex d-xxl-flex justify-content-xxl-end">天</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="countDown pt-5 pb-7 d-none d-xxl-block">
+        <p class="fs-2 text-secondary text-center pb-1 border-bottom border-secondary border-3">檢定日<span
+                class="fs-1 text-primary">倒數</span></p>
+        <div class="count px-4">
+            <div class="time bg-primary d-flex justify-content-around p-3">
+                <div class="one fs-1 px-3 me-3 bg-light text-danger">1</div>
+                <div class="two fs-1 px-3 me-3 bg-light text-danger">2</div>
+                <div class="three fs-1 px-3 me-3 bg-light text-danger">3</div>
+                <p class="text-third align-self-end fs-3">天</p>
+            </div>
+        </div>
+    </div>
+    <div class="bean mt-3 mt-xxl-0">
+        <div class=" knowledge border border-5 border-secondary">
+            <div class="title d-inline-flex d-md-flex">
+                <img src="./assets/images/bean.svg" alt="bran"
+                    class="px-3 px-md-4 py-3 bg-secondary bean d-none d-md-block">
+                <img src="./assets/images/bean1.png" alt="bran"
+                    class="px-3 px-md-4 bg-secondary bean1 d-block d-md-none">
+            </div>
+            <div class="right ms-3 pt-1 align-self-center d-none d-md-block">
+                <p class="fs-3 text-danger">豆知識</p>
+                <p class="fs-4 d-none d-md-block">まめちしき</p>
+            </div>
+            <div class="body my-0 my-xxl-6 p-3 pb-xxl-7">
+                <p class="fs-3 text d-none d-md-block px-8 px-md-5 pb-0 pb-lg-5">
+                    全日本的神社真的比便利商店還多?
+                </p>
+                <p class="fs-3 text1 d-block d-md-none px-10 px-md-5 pb-0 pb-lg-5">
+                    全日本的神社真的比便利商店還多?
+                </p>
+            </div>
+            <div class="d-flex justify-content-end">
+                <a href="" class="answer p-3 bg-success text-third fs-3 d-none d-md-block">看答案</a>
+                <a href="" class="answer1 p-3 bg-success text-third fs-3 d-block d-md-none">答</a>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p class="text-center bg-primary text-third py-2 ">Copyright © 2022 日日背單字. All Rights Reserved.</p>
+  </div>
+  <script src=" ./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
