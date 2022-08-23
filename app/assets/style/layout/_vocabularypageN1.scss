@@ -1,0 +1,96 @@
+.kanjigroup,
+.hirakaragroup,
+.accentgroup,
+.explaingroup,
+.sentencegroup {
+    position: relative;
+
+    input {
+        height: 48px;
+        width: 100%;
+        border: none;
+        border-bottom: 3px solid $primary;
+        font-size: 24px;
+        position: relative;
+        outline: none;
+        padding-left: 8px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        background-color: $third;
+
+        &:focus~label,
+        &:valid~label {
+            transform: translateY(-20px);
+            font-size: 16px;
+            color: $danger;
+        }
+
+        &:focus~.underline:before,
+        &:valid~.underline:before {
+            transform: scaleX(1)
+        }
+
+    }
+
+    .kanji,
+    .hirakara {
+        max-width: 220px;
+    }
+
+    .accent {
+        max-width: 106px;
+    }
+
+    .explain,
+    .sentence {
+        width: 290px;
+    }
+
+    .underline {
+        position: absolute;
+        bottom: 0;
+        height: 3px;
+        width: 100%;
+
+        &:before {
+            position: absolute;
+            content: "";
+            height: 100%;
+            width: 100%;
+            background: $danger;
+            transform: scaleX(0);
+            transition: all 0.3s ease;
+        }
+    }
+
+    label {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        font-size: 24px;
+        color: $primary;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        padding-left: 4px;
+    }
+}
+
+
+
+
+.send {
+    .material-symbols-outlined {
+        font-size: 36px;
+    }
+}
+
+.vocabularyspagen1 {
+    height: 908px;
+    overflow-y: hidden;
+
+
+    .wordlist {
+        height: 688px;
+        overflow-y: scroll;
+    }
+}

@@ -1,0 +1,41 @@
+.navMain {
+    position: relative;
+    box-shadow: 0 3px 6px $secondary;
+
+    .navUp {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .navDown {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .navListPad {
+        display: none;
+    }
+
+    .navListItem {
+        box-shadow: 0 0 6px rgba(229, 166, 0, .2);
+
+        &:hover {
+            background-color: $secondary;
+        }
+    }
+
+    .active {
+        background-color: $secondary;
+    }
+
+    .material-symbols-outlined {
+        font-size: 48px;
+        color: $primary;
+    }
+
+    .btn {
+        outline: none;
+    }
+}

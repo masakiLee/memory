@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="162" height="156" viewBox="0 0 162 156">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #b3193f;
+      }
+
+      .cls-2, .cls-7 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #79872f;
+        stroke-width: 3px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 18px;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: KosugiMaru-Regular, Kosugi Maru;
+      }
+
+      .cls-5 {
+        font-size: 29px;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        filter: url(#椭圆_21);
+      }
+    </style>
+    <filter id="椭圆_21" x="0" y="4" width="153" height="152" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组_567" data-name="组 567" transform="translate(9 -596)">
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, -9, 596)">
+      <ellipse id="椭圆_21-2" data-name="椭圆 21" class="cls-1" cx="67.5" cy="67" rx="67.5" ry="67" transform="translate(9 10)"/>
+    </g>
+    <g id="椭圆_22" data-name="椭圆 22" class="cls-2" transform="translate(18 596)">
+      <circle class="cls-6" cx="67.5" cy="67.5" r="67.5"/>
+      <circle class="cls-7" cx="67.5" cy="67.5" r="66"/>
+    </g>
+    <g id="组_540" data-name="组 540" transform="translate(36.37 617.669)">
+      <text id="日日背單字" class="cls-3" transform="translate(-0.37 78.331)"><tspan x="0" y="0">日日背單字</tspan></text>
+      <g id="组_205" data-name="组 205" transform="translate(24.139 0)">
+        <g id="cards">
+          <path id="路径_76" data-name="路径 76" class="cls-4" d="M74.264,157.737H42.989a3.836,3.836,0,0,0-3.861,3.8v36.734a3.837,3.837,0,0,0,3.861,3.8H74.264a3.837,3.837,0,0,0,3.861-3.8V161.54A3.837,3.837,0,0,0,74.264,157.737Z" transform="translate(-39.127 -150.153)"/>
+          <path id="路径_77" data-name="路径 77" class="cls-4" d="M302.713,14.222H272.592a3.866,3.866,0,0,0-3.861,3.861v.549h23a7.042,7.042,0,0,1,7.035,7.034v32.26h3.944a3.866,3.866,0,0,0,3.861-3.861V18.083A3.866,3.866,0,0,0,302.713,14.222Z" transform="translate(-256.695 -14.222)"/>
+        </g>
+        <text id="あ" class="cls-5" transform="translate(6.49 42.331)"><tspan x="0" y="0">あ</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

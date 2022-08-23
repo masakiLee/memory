@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="47" viewBox="0 0 45 47">
+  <g id="smallLogo" transform="translate(-128 -305)">
+    <g id="组_363" data-name="组 363" transform="translate(128 305)">
+      <g id="cards">
+        <path id="路径_76" data-name="路径 76" d="M70.878,157.737H42.616a3.47,3.47,0,0,0-3.489,3.443v33.261a3.47,3.47,0,0,0,3.489,3.443H70.878a3.47,3.47,0,0,0,3.489-3.443V161.18A3.47,3.47,0,0,0,70.878,157.737Z" transform="translate(-39.127 -150.884)" fill="#1d2d51"/>
+        <path id="路径_77" data-name="路径 77" d="M299.438,14.222H272.22a3.493,3.493,0,0,0-3.489,3.489v.5h20.787a6.364,6.364,0,0,1,6.357,6.357V53.715h3.564a3.493,3.493,0,0,0,3.489-3.489V17.711A3.494,3.494,0,0,0,299.438,14.222Z" transform="translate(-257.928 -14.222)" fill="#1d2d51"/>
+      </g>
+    </g>
+    <text id="あ" transform="translate(133 341.932)" fill="#fffdee" font-size="25" font-family="KosugiMaru-Regular, Kosugi Maru"><tspan x="0" y="0">あ</tspan></text>
+  </g>
+</svg>

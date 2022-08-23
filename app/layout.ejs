@@ -1,61 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%- title %></title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link rel="stylesheet" href="./assets/style/all.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <script src="https://kit.fontawesome.com/4d58487456.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+<body class="bg-light">
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-xxl-2 pb-3 order-xxl-0 order-0">
+        <div class="navMain bg-third d-flex flex-column h-100">
+          <img src="./assets/images/navUp.svg" alt="navUp" class="navUp d-none d-xxl-block">
+          <img src="./assets/images/navDown.svg" alt="navDown" class="navDown d-none d-xxl-block">
+          <div class="navBar mx-3 mx-xxl-auto my-3 my-xxl-11 d-flex justify-content-between">
+            <h1 class="">
+              <a href="#" class="d-block">
+                <img src="./assets/images/logo.svg" alt="logo" class="d-none d-xxl-block">
+                <img src="./assets/images/smallLogo.svg" alt="logo" class="d-block d-xxl-none">
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+            </h1>
+            <a class="btn p-0 btnMenu" data-bs-toggle="collapse" href="#menu" role="button" aria-expanded="false"
+              aria-controls="menu">
+              <span class="material-symbols-outlined d-block d-xxl-none">
+                menu
+              </span>
+            </a>
+          </div>
+          <ul class="navList d-flex flex-xxl-column d-none d-xxl-block">
+            <li class="navListItem active py-3 fs-2 w-100">
+              <a href="./home.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/indexIcon.svg" alt="indexIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">首頁</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="./vocabulary.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/wordIcon.svg" alt="wordIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">單字庫</a>
+            </li>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/favoriteIcon.svg" alt="Icon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">收藏夾</a>
+            </li>
+            <li class="navListItem py-3 fs-2 w-100">
+              <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                  src="./assets/images/textIcon.svg" alt="textIcon"
+                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">測驗</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          <div class="collapse" id="menu">
+            <ul class="navList d-flex flex-wrap d-xxl-none">
+              <li class="navListItem active py-2 py-md-3 fs-2 w-50 text-center">
+                <a href="./home.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/indexIcon.svg" alt="indexIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">首頁</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="./vocabulary.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/wordIcon.svg" alt="wordIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">單字庫</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/favoriteIcon.svg" alt="Icon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">收藏夾</p>
+                </a>
+              </li>
+              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+                <a href="#" class="text-primary d-block fs-3 text-center text-xxl-start"><img
+                    src="./assets/images/textIcon.svg" alt="textIcon"
+                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
+                  <p class="d-inline-block">測驗</p>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </nav>
+      <%- contents %>
+    </div>
+  </div>
 
-    <%- contents %>
-
-    <footer class="footer">
-      footer
-    </footer>
-
-    <script src="./assets/js/vendors.js"></script>
-    <script src="./assets/js/all.js"></script>
-  </body>
+  <div class="footer">
+    <p class="text-center bg-primary text-third py-2 ">Copyright © 2022 日日背單字. All Rights Reserved.</p>
+  </div>
+  <script src=" ./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
 
 </html>

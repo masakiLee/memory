@@ -1,0 +1,16 @@
+<svg id="google-square-fill" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2d85f0"/>
+      <stop offset="0.425" stop-color="#f4433c"/>
+      <stop offset="0.736" stop-color="#ffbc32"/>
+      <stop offset="1" stop-color="#0aa858"/>
+    </linearGradient>
+  </defs>
+  <path id="google-square-fill-2" data-name="google-square-fill" class="cls-1" d="M160,112H114a2,2,0,0,0-2,2v46a2,2,0,0,0,2,2h46a2,2,0,0,0,2-2V114A2,2,0,0,0,160,112Zm-12.562,36.6a14.631,14.631,0,0,1-10.131,3.712,15.316,15.316,0,0,1,0-30.631,14.733,14.733,0,0,1,10.244,3.988l-4.388,4.394a8.264,8.264,0,0,0-5.85-2.288,9.227,9.227,0,1,0,5.175,16.988,7.038,7.038,0,0,0,3.056-4.625h-8.237v-5.925h14.419a17.631,17.631,0,0,1,.275,3.131A14.937,14.937,0,0,1,147.438,148.6Z" transform="translate(-112 -112)"/>
+</svg>

@@ -1,0 +1,186 @@
+.nav-tabs {
+    .nav-link {
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        border: 5px solid $danger;
+        background-color: $third;
+        text-align: center;
+        color: $gray-700;
+
+        &:hover {
+            border-color: $danger;
+            background-color: $danger;
+            color: $third;
+        }
+    }
+
+    .active {
+        border-color: $danger  !important;
+        background-color: $danger  !important;
+        color: $third  !important;
+    }
+
+}
+
+.tab-content {
+    margin-top: -5px;
+    border: 5px solid $danger;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+
+    .tabTextBar {
+        width: 6px;
+        height: 48px;
+        background-color: $success;
+        border-radius: 3px;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.recommendBox {
+    height: 506px;
+    overflow: hidden;
+
+    .pic {
+        position: relative;
+        flex-shrink: 1;
+        flex-grow: 1;
+        overflow: hidden;
+        transition: 1s;
+
+        &:hover {
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+
+        &:hover .title {
+            color: $secondary;
+        }
+
+        .title {
+            position: absolute;
+            color: $third;
+            background-color: #1b273370;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+.recommendBoxColunm {
+    overflow: hidden;
+
+    .pic {
+        position: relative;
+        margin-bottom: 24px;
+        overflow: hidden;
+        max-width: 344px;
+        width: 100%;
+        height: 98px;
+        transition: all 0.4s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        &:hover .title {
+            color: $secondary;
+        }
+    }
+
+    .title {
+        position: absolute;
+        color: $third;
+        background-color: #1b273370;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+.checkBox {
+    border-radius: 16px;
+
+
+    .checkBar {
+        width: 3px;
+        height: 94px;
+        margin-top: 10px;
+        background-color: $success;
+        border-radius: 3px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+
+.count {
+    .time {
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .one,
+    .two,
+    .three {
+        border-radius: 16px;
+    }
+}
+
+.knowledge {
+    border-radius: 16px;
+    position: relative;
+
+    .title {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .bean {
+        border-top-left-radius: 12px;
+        border-bottom-right-radius: 16px;
+    }
+
+    .bean1 {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        padding: 18px 0;
+    }
+
+    .right {
+        padding-left: 120px;
+    }
+
+    .body {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+
+        .text1 {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+
+    .answer {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-top-left-radius: 16px;
+        border-bottom-right-radius: 12px;
+    }
+
+    .answer1 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+}
