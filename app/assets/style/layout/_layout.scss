@@ -1,18 +1,5 @@
 .navMain {
-    position: relative;
     box-shadow: 0 3px 6px $secondary;
-
-    .navUp {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-    .navDown {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
 
     .navListPad {
         display: none;

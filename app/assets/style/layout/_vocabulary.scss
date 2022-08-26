@@ -43,29 +43,21 @@
 .vocabularys {
     position: relative;
 
+    .plus {
+        position: absolute;
+        bottom: 12px;
+        right: 42px;
+    }
 
+    .plusIcon {
+        font-size: 48px;
+    }
 
-    .vocabularysBody {
-        height: 792px;
-        overflow-y: scroll;
-        overflow-x: hidden;
+    .card-body {
+        padding: 24px;
+    }
 
-        .plus {
-            position: absolute;
-            right: 48px;
-            bottom: 24px;
-        }
-
-        .material-symbols-outlined {
-            font-size: 48px;
-        }
-
-        .card-body {
-            padding: 24px;
-        }
-
-        .del {
-            cursor: pointer;
-        }
+    .del {
+        cursor: pointer;
     }
 }

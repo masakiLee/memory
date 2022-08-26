@@ -76,21 +76,84 @@
 }
 
 
-
-
 .send {
     .material-symbols-outlined {
         font-size: 36px;
     }
 }
 
-.vocabularyspagen1 {
-    height: 908px;
-    overflow-y: hidden;
 
+.kakushu {
+    height: 860px;
 
-    .wordlist {
-        height: 688px;
-        overflow-y: scroll;
-    }
+}
+
+.wordlist {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    height: 740px;
+}
+
+.wordlist .card {
+    position: relative;
+    width: 300px;
+    cursor: pointer;
+}
+
+.wordlist .card .name {
+    position: relative;
+    padding: 10px 0;
+    border: 2px solid #000;
+    text-align: center;
+    background: #fff;
+    z-index: 1;
+}
+
+.wordlist .card .name h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.wordlist .card .details {
+    position: relative;
+    text-align: center;
+    height: 0;
+    transition: 0.5s;
+    border: 2px solid #000;
+    margin-top: -2px;
+    overflow: hidden;
+    top: -2px;
+}
+
+.wordlist .card:hover .details {
+    height: 160px;
+}
+
+.wordlist .card .details .content {
+    position: relative;
+    padding: 16px 20px;
+}
+
+.wordlist .card .details .content h2 {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.wordlist .card .details .content span {
+    font-size: 0.4rem;
+}
+
+.wordlist .card .details .content a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    text-decoration: none;
 }

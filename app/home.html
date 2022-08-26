@@ -118,7 +118,7 @@ current: index
             <div
                 class="checkBox border border-secondary border-5 px-2 px-md-3 d-flex justify-content-around align-items-center py-2">
                 <div class="icon">
-                    <a href="" class="clockOn">
+                    <a href="#" id="clockOn">
                         <img src="./assets/images/punck.svg" alt="打卡ICON">
                         <p class="text-center text-primary pt-1 fs-4 d-none d-xxl-block">簽到</p>
                     </a>
@@ -126,7 +126,8 @@ current: index
                 <div class="checkBar mx-3 mx-xxl-0 d-none d-md-block"></div>
                 <div class="time flex-row d-none d-md-block">
                     <p class="fs-3 d-inline-flex d-xxl-flex d-none d-md-block">已連續簽到</p>
-                    <p class="continuous d-inline-flex d-xxl-flex fs-2 justify-content-xxl-center text-danger">0</p>
+                    <p class="d-inline-flex d-xxl-flex fs-2 justify-content-xxl-center text-danger" id="continuous">0
+                    </p>
                     <p class="fs-4 d-inline-flex d-xxl-flex justify-content-xxl-end">天</p>
                 </div>
             </div>
@@ -137,9 +138,9 @@ current: index
                 class="fs-1 text-primary">倒數</span></p>
         <div class="count px-4">
             <div class="time bg-primary d-flex justify-content-around p-3">
-                <div class="one fs-1 px-3 me-3 bg-light text-danger"></div>
-                <div class="two fs-1 px-3 me-3 bg-light text-danger"></div>
-                <div class="three fs-1 px-3 me-3 bg-light text-danger"></div>
+                <div class="one fs-1 px-3 me-3 bg-light text-danger">0</div>
+                <div class="two fs-1 px-3 me-3 bg-light text-danger">0</div>
+                <div class="three fs-1 px-3 me-3 bg-light text-danger">0</div>
                 <p class="text-third align-self-end fs-3">天</p>
             </div>
         </div>
