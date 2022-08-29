@@ -1,0 +1,54 @@
+.exampaper {
+    max-width: 860px;
+    width: 100%;
+    border: 5px solid $primary;
+    border-radius: 16px;
+
+    .topic {
+        background-color: $secondary-300;
+        border-radius: 16px;
+    }
+
+    .answer {
+
+        .botan {
+            border-radius: 16px;
+            max-width: 384px;
+            width: 100%;
+
+            @media (max-width:1199.98px) {
+                max-width: 351px;
+            }
+
+            @media (max-width:991.98px) {
+                max-width: 100%;
+            }
+        }
+
+        .ichi {
+            background-color: $primary-300;
+            margin-right: 16px;
+
+            @media (max-width:991.98px) {
+                margin-right: 0;
+            }
+        }
+
+        .ni {
+            background-color: $success-300;
+        }
+
+        .sann {
+            background-color: $danger-300;
+            margin-right: 16px;
+
+            @media (max-width:991.98px) {
+                margin-right: 0;
+            }
+        }
+
+        .yonn {
+            background-color: $secondary-300;
+        }
+    }
+}

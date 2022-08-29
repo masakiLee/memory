@@ -1,0 +1,82 @@
+---
+title: 日日背單字 | favorite
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="col-12 col-xxl-10 favorite">
+    <div
+        class="favoriteTitle pt-0 pt-md-4 pb-3 d-flex justify-content-between flex-wrap border-bottom border-success border-3">
+        <nav aria-label="breadcrumb" class="text-secondary">
+            <ol class="breadcrumb mb-0 pb-2 pb-md-0">
+                <li class="breadcrumb-item active" aria-current="page">收藏夾</li>
+            </ol>
+        </nav>
+        <div class="searchGroup d-flex align-items-center">
+            <label for="search" class="search">
+                <input type="text" name="search" id="search" placeholder="請輸入要查的單字" class="searchText">
+                <botton class="btn bg-danger searchBtn py-1 px-3">
+                    <span class="material-symbols-outlined align-middle">
+                        saved_search
+                    </span>
+                </botton>
+            </label>
+        </div>
+    </div>
+    <div class="favoriteselect d-flex py-3">
+        <p class="fs-2 pe-3">請選擇單字庫</p>
+        <select name="vocabulary" class="w-25 fs-3">
+            <optgroup label="日檢單字" class="text-primary">
+                <option value="N1" class="text-danger">N1</option>
+                <option value="N2" class="text-danger">N2</option>
+                <option value="N3" class="text-danger">N3</option>
+                <option value="N4" class="text-danger">N4</option>
+                <option value="N5" class="text-danger">N5</option>
+            </optgroup>
+            <optgroup label="旅遊" class="text-primary">
+            </optgroup>
+            <optgroup label="交通" class="text-primary">
+            </optgroup>
+            <optgroup label="職場" class="text-primary">
+            </optgroup>
+            <optgroup label="美食" class="text-primary">
+            </optgroup>
+        </select>
+    </div>
+
+    <div class="wordlist mt-3">
+        <div class="wordcard pb-2 mx-auto">
+            <div class="word wordthree">
+                <p class="fs-3 wordText">臨む</p>
+            </div>
+            <h3 class="fs-5 pb-2 nihonko px-3 d-flex">のぞむ<span class="ps-3 fs-6 align-top">②</span></h3>
+            <div class="d-flex align-items-center px-3 pb-2">
+                <p class="fs-6 text-danger">『動』</p>
+                <p class="fs-5 ps-2">面臨、面對</p>
+            </div>
+            <p class="fs-5 px-3">危機に臨んで沈着冷静である/<span class="text-danger">臨危不亂</span>。</p>
+            <div class="icon d-flex justify-content-around pt-2 px-3">
+                <a href="#" class="fav"><i class="fa-solid fa-medal fs-2"></i>
+                    <a href="#" class="fav"><i class="fa-solid fa-pen-clip fs-2"></i></a>
+                    <a href="#" class="favShow"><i class="fa-solid fa-trash-can-arrow-up fs-2"></i></a>
+            </div>
+        </div>
+        <div class="wordcard pb-2 mx-auto">
+            <div class="word wordfore">
+                <p class="fs-3 wordText">甚だ</p>
+            </div>
+            <h3 class="fs-5 pb-2 nihonko px-3 d-flex">はなはだ<span class="ps-3 fs-6 align-top">②</span></h3>
+            <div class="d-flex align-items-center px-3 pb-2">
+                <p class="fs-6 text-danger">『副』</p>
+                <p class="fs-5 ps-2">很、甚、非常</p>
+            </div>
+            <p class="fs-5 px-3">彼は甚だ頭が良い/<span class="text-danger">他的頭腦非常好</span>。</p>
+            <div class="icon d-flex justify-content-around pt-2 px-3">
+                <a href="#" class="fav"><i class="fa-solid fa-medal fs-2"></i>
+                    <a href="#" class="fav"><i class="fa-solid fa-pen-clip fs-2"></i></a>
+                    <a href="#" class="favShow"><i class="fa-solid fa-trash-can-arrow-up fs-2"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
