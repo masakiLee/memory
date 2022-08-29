@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    日日背單字 | vocabularyPage
+    日日背單字 | favorite
   </title>
   <script src="https://kit.fontawesome.com/4d58487456.js" crossorigin="anonymous"></script>
   <link rel="stylesheet"
@@ -94,14 +94,12 @@
         </div>
       </div>
       
-
-<div class="col-12 col-xxl-10 vocabularys">
+<div class="col-12 col-xxl-10 favorite">
     <div
-        class="vocabularysTitle pt-0 pt-md-4 pb-3 d-flex justify-content-between flex-wrap border-bottom border-success border-3">
+        class="favoriteTitle pt-0 pt-md-4 pb-3 d-flex justify-content-between flex-wrap border-bottom border-success border-3">
         <nav aria-label="breadcrumb" class="text-secondary">
             <ol class="breadcrumb mb-0 pb-2 pb-md-0">
-                <li class="breadcrumb-item"><a href="./vocabulary.html">單字庫</a></li>
-                <li class="breadcrumb-item active" aria-current="page">日文檢定</li>
+                <li class="breadcrumb-item active" aria-current="page">收藏夾</li>
             </ol>
         </nav>
         <div class="searchGroup d-flex align-items-center">
@@ -115,59 +113,60 @@
             </label>
         </div>
     </div>
-    <div class="vocabularysBody pt-6 pb-3">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-5 mx-3">
-            <div class="col mb-6">
-                <a href="./vocabularypagen1.html" class="card h-100 bg-success border-0">
-                    <img src="./assets/images/vpage-one.png" class="card-img-top" alt="...">
-                    <div class="card-body bg-success text-third rounded-bottom d-flex justify-content-between">
-                        <h5 class="card-title fs-3 mb-0 align-self-center">N1</h5>
-                        <img src="./assets/images/del.png" alt="del" class="del">
-                    </div>
-                </a>
+    <div class="favoriteselect d-flex py-3">
+        <p class="fs-2 pe-3">請選擇單字庫</p>
+        <select name="vocabulary" class="w-25 fs-3">
+            <optgroup label="日檢單字" class="text-primary">
+                <option value="N1" class="text-danger">N1</option>
+                <option value="N2" class="text-danger">N2</option>
+                <option value="N3" class="text-danger">N3</option>
+                <option value="N4" class="text-danger">N4</option>
+                <option value="N5" class="text-danger">N5</option>
+            </optgroup>
+            <optgroup label="旅遊" class="text-primary">
+            </optgroup>
+            <optgroup label="交通" class="text-primary">
+            </optgroup>
+            <optgroup label="職場" class="text-primary">
+            </optgroup>
+            <optgroup label="美食" class="text-primary">
+            </optgroup>
+        </select>
+    </div>
+
+    <div class="wordlist mt-3">
+        <div class="wordcard pb-2 mx-auto">
+            <div class="word wordthree">
+                <p class="fs-3 wordText">臨む</p>
             </div>
-            <div class="col mb-6">
-                <a href="#" class="card h-100 border-0">
-                    <img src="./assets/images/vpage-two.png" class="card-img-top" alt="...">
-                    <div class="card-body bg-primary text-third rounded-bottom d-flex justify-content-between">
-                        <h5 class="card-title fs-3 mb-0 align-self-center">N2</h5>
-                        <img src="./assets/images/del.png" alt="del" class="del">
-                    </div>
-                </a>
+            <h3 class="fs-5 pb-2 nihonko px-3 d-flex">のぞむ<span class="ps-3 fs-6 align-top">②</span></h3>
+            <div class="d-flex align-items-center px-3 pb-2">
+                <p class="fs-6 text-danger">『動』</p>
+                <p class="fs-5 ps-2">面臨、面對</p>
             </div>
-            <div class="col mb-6">
-                <a href="#" class="card h-100 border-0">
-                    <img src="./assets/images/vpage-three.png" class="card-img-top" alt="...">
-                    <div class="card-body bg-secondary text-third rounded-bottom d-flex justify-content-between">
-                        <h5 class="card-title fs-3 mb-0 align-self-center">N3</h5>
-                        <img src="./assets/images/del.png" alt="del" class="del">
-                    </div>
-                </a>
-            </div>
-            <div class="col mb-6">
-                <a href="#" class="card h-100 border-0">
-                    <img src="./assets/images/vpage-fore.png" class="card-img-top" alt="...">
-                    <div class="card-body bg-success text-third rounded-bottom d-flex justify-content-between">
-                        <h5 class="card-title fs-3 mb-0 align-self-center">N4</h5>
-                        <img src="./assets/images/del.png" alt="del" class="del">
-                    </div>
-                </a>
-            </div>
-            <div class="col mb-6">
-                <a href="#" class="card h-100 border-0">
-                    <img src="./assets/images/vpage-five.png" class="card-img-top" alt="...">
-                    <div class="card-body bg-primary text-third rounded-bottom d-flex justify-content-between">
-                        <h5 class="card-title fs-3 mb-0 align-self-center">N5</h5>
-                        <img src="./assets/images/del.png" alt="del" class="del">
-                    </div>
-                </a>
+            <p class="fs-5 px-3">危機に臨んで沈着冷静である/<span class="text-danger">臨危不亂</span>。</p>
+            <div class="icon d-flex justify-content-around pt-2 px-3">
+                <a href="#" class="fav"><i class="fa-solid fa-medal fs-2"></i>
+                    <a href="#" class="fav"><i class="fa-solid fa-pen-clip fs-2"></i></a>
+                    <a href="#" class="favShow"><i class="fa-solid fa-trash-can-arrow-up fs-2"></i></a>
             </div>
         </div>
-        <botton class="btn plus bg-danger text-third">
-            <span class="material-symbols-outlined align-middle py-2 px-3 plusIcon">
-                add
-            </span>
-        </botton>
+        <div class="wordcard pb-2 mx-auto">
+            <div class="word wordfore">
+                <p class="fs-3 wordText">甚だ</p>
+            </div>
+            <h3 class="fs-5 pb-2 nihonko px-3 d-flex">はなはだ<span class="ps-3 fs-6 align-top">②</span></h3>
+            <div class="d-flex align-items-center px-3 pb-2">
+                <p class="fs-6 text-danger">『副』</p>
+                <p class="fs-5 ps-2">很、甚、非常</p>
+            </div>
+            <p class="fs-5 px-3">彼は甚だ頭が良い/<span class="text-danger">他的頭腦非常好</span>。</p>
+            <div class="icon d-flex justify-content-around pt-2 px-3">
+                <a href="#" class="fav"><i class="fa-solid fa-medal fs-2"></i>
+                    <a href="#" class="fav"><i class="fa-solid fa-pen-clip fs-2"></i></a>
+                    <a href="#" class="favShow"><i class="fa-solid fa-trash-can-arrow-up fs-2"></i></a>
+            </div>
+        </div>
     </div>
 </div>
     </div>

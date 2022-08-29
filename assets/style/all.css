@@ -14842,6 +14842,15 @@ a {
   cursor: pointer;
 }
 
+.bgs7 {
+  background-color: #F9EECC;
+}
+
+.accordion-body {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
 .kanjigroup,
 .hirakaragroup,
 .accentgroup,
@@ -14865,7 +14874,6 @@ a {
   padding-left: 8px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  background-color: #fffdf0;
 }
 
 .kanjigroup input:focus ~ label,
@@ -14980,95 +14988,191 @@ a {
   padding-left: 4px;
 }
 
-.send .material-symbols-outlined {
-  font-size: 36px;
-}
-
-.kakushu {
-  height: 860px;
-}
-
 .wordlist {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  height: 740px;
+  padding: 0 12px;
+  -webkit-columns: 4;
+     -moz-columns: 4;
+          columns: 4;
+  -webkit-column-gap: 12px;
+     -moz-column-gap: 12px;
+          column-gap: 12px;
 }
 
-.wordlist .card {
-  position: relative;
-  width: 300px;
-  cursor: pointer;
+@media (max-width: 1199.98px) {
+  .wordlist {
+    -webkit-columns: 3;
+       -moz-columns: 3;
+            columns: 3;
+    -webkit-column-gap: 12px;
+       -moz-column-gap: 12px;
+            column-gap: 12px;
+  }
 }
 
-.wordlist .card .name {
-  position: relative;
-  padding: 10px 0;
-  border: 2px solid #000;
-  text-align: center;
-  background: #fff;
-  z-index: 1;
+@media (max-width: 991.98px) {
+  .wordlist {
+    -webkit-columns: 2;
+       -moz-columns: 2;
+            columns: 2;
+  }
 }
 
-.wordlist .card .name h3, .wordlist .card .name .h3 {
-  font-weight: 500;
-  font-size: 1.5rem;
+@media (max-width: 767.98px) {
+  .wordlist {
+    -webkit-columns: 1;
+       -moz-columns: 1;
+            columns: 1;
+  }
 }
 
-.wordlist .card .details {
+.wordlist .wordcard {
   position: relative;
-  text-align: center;
-  height: 0;
+  max-width: 300px;
+  width: 100%;
+  background-color: #F9EECC;
+  -webkit-box-shadow: 0 1px 6px #AFB783;
+          box-shadow: 0 1px 6px #AFB783;
+  border-radius: 16px;
+  overflow: hidden;
+  color: #1D2D51;
+  margin-bottom: 24px;
+}
+
+.wordlist .wordcard:hover .word {
+  top: 0;
+  width: 100%;
+  height: 48px;
+  -webkit-box-shadow: 0 0 6px #EFCA66;
+          box-shadow: 0 0 6px #EFCA66;
+  background-color: #949F59;
+}
+
+.wordlist .wordcard:hover .word .wordText {
+  position: absolute;
+  color: #1D2D51;
+  -webkit-transform: translate(-50%, -75%);
+      -ms-transform: translate(-50%, -75%);
+          transform: translate(-50%, -75%);
+}
+
+.wordlist .wordcard .word {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  border: 2px solid #000;
-  margin-top: -2px;
-  overflow: hidden;
-  top: -2px;
 }
 
-.wordlist .card:hover .details {
-  height: 160px;
+.wordlist .wordcard .word .wordText {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: 0.5s;
+      -ms-transform: 0.5s;
+          transform: 0.5s;
+  color: #1D2D51;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
-.wordlist .card .details .content {
-  position: relative;
-  padding: 16px 20px;
+.wordlist .wordcard .wordone {
+  background-color: #E5E7D7;
 }
 
-.wordlist .card .details .content h2, .wordlist .card .details .content .h2 {
-  font-size: 3em;
-  font-weight: 500;
+.wordlist .wordcard .wordtwo {
+  background-color: #F9EECC;
 }
 
-.wordlist .card .details .content span {
-  font-size: 0.4rem;
+.wordlist .wordcard .wordthree {
+  background-color: #d9e3ff;
 }
 
-.wordlist .card .details .content a {
-  position: relative;
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 15px;
-  background: rgba(0, 0, 0, 0.9);
-  color: #fff;
-  text-decoration: none;
+.wordlist .wordcard .wordfore {
+  background-color: #ffb9c8;
+}
+
+.wordlist .wordcard .nihonko {
+  margin-top: 60px;
+}
+
+.wordlist .wordcard .fav {
+  color: #E5A600;
+}
+
+.wordlist .wordcard .fav:hover, .wordlist .wordcard .fav:active {
+  color: #B3193F;
+}
+
+.wordlist .wordcard .favShow {
+  color: #1D2D51;
+}
+
+.wordlist .wordcard .favShow:hover, .wordlist .wordcard .favShow:active {
+  color: #B3193F;
+}
+
+.exampaper {
+  max-width: 860px;
+  width: 100%;
+  border: 5px solid #1D2D51;
+  border-radius: 16px;
+}
+
+.exampaper .topic {
+  background-color: #F9EECC;
+  border-radius: 16px;
+}
+
+.exampaper .answer .botan {
+  border-radius: 16px;
+  max-width: 384px;
+  width: 100%;
+}
+
+@media (max-width: 1199.98px) {
+  .exampaper .answer .botan {
+    max-width: 351px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .exampaper .answer .botan {
+    max-width: 100%;
+  }
+}
+
+.exampaper .answer .ichi {
+  background-color: #d9e3ff;
+  margin-right: 16px;
+}
+
+@media (max-width: 991.98px) {
+  .exampaper .answer .ichi {
+    margin-right: 0;
+  }
+}
+
+.exampaper .answer .ni {
+  background-color: #E5E7D7;
+}
+
+.exampaper .answer .sann {
+  background-color: #ffecfb;
+  margin-right: 16px;
+}
+
+@media (max-width: 991.98px) {
+  .exampaper .answer .sann {
+    margin-right: 0;
+  }
+}
+
+.exampaper .answer .yonn {
+  background-color: #F9EECC;
 }
 
 /*# sourceMappingURL=all.css.map */
