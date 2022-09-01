@@ -9,9 +9,8 @@ let clockOn = document.getElementById("clockOn");
 let continuous = document.getElementById("continuous");
 
 // 監聽 click 按鈕
-if (clockOn) {
-  clockOn.addEventListener("click", clock); //簽到});
-}
+
+clockOn.addEventListener("click", clock); //簽到;
 
 // 檢定日函數;
 
