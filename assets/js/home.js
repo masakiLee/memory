@@ -13,10 +13,8 @@ var inputTime = new Date("2022-12-04 00:00:00"); //最後一天日期
 var clockOn = document.getElementById("clockOn");
 var continuous = document.getElementById("continuous"); // 監聽 click 按鈕
 
-if (clockOn) {
-  clockOn.addEventListener("click", clock); //簽到});
-} // 檢定日函數;
-
+clockOn.addEventListener("click", clock); //簽到;
+// 檢定日函數;
 
 function countDown() {
   var nowTime = new Date();
@@ -38,4 +36,4 @@ function clock() {
   clock += 1;
   continuous.innerHTML = clock++;
 }
-//# sourceMappingURL=all.js.map
+//# sourceMappingURL=home.js.map
