@@ -21,6 +21,7 @@ function callSignIn() {
   axios.post("https://hexschool-tutorial.herokuapp.com/api/signin", obj_2).then(function (response) {
     if (response.data.message === "登入成功") {
       alert("登入成功");
+      location.href = "./home.html";
     } else {
       alert("此帳號不存在或帳號密碼錯誤！");
     }

@@ -45,9 +45,8 @@
                         <p class="tagName2 text-third fs-6 text-center">登入</p>
                     </div>
                 </a>
-                <form method="post"
-                    class="signInFormBox d-flex flex-column justify-content-center align-items-center mx-auto px-3">
-                    <p class="fs-1 text-third lh-base mt-4 mt-md-6 mb-5">註冊帳號</p>
+                <form class="signInFormBox d-flex flex-column justify-content-center align-items-center mx-auto px-3">
+                    <p class="fs-1 text-third lh-base mt-4 mt-md-6 mb-5 gg">註冊帳號</p>
                     <label class="emailBox mb-3">
                         <span class="material-symbols-outlined person text-primary fs-1">
                             person_filled
@@ -62,7 +61,7 @@
                         <input type="password" name="password" placeholder="請輸入密碼"
                             class="bg-third text-primary rounded-1 border-0 fs-2 passwordSignUp">
                     </label>
-                    <input type="submit" class="py-3 text-third bg-success rounded-1 border-0 my-5 fs-2 sendSignUp"
+                    <input type="button" class="py-3 text-third bg-success rounded-1 border-0 my-5 fs-2 sendSignUp"
                         value="註冊"></input>
                     <small class="other text-third fs-4">使用其他方式註冊</small>
                     <ul class="social d-flex justify-content-center mb-8 mb-sm-5 mt-4 mt-sm-3">
@@ -77,41 +76,7 @@
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<script>
-    //signUp
-    const accountSignUp = document.querySelector(".accountSignUp");
-    const passwordSignUp = document.querySelector(".passwordSignUp");
-    const sendSignUp = document.querySelector(".sendSignUp");
-
-    sendSignUp.addEventListener("click", function (e) {
-        callSignUp();
-    });
-
-    function callSignUp() {
-        if (accountSignUp.value === "" || passwordSignUp.value === "") {
-            alert("請輸入正確資訊");
-            return;
-        }
-        let obj = {};
-        obj.email = accountSignUp.value;
-        obj.password = passwordSignUp.value;
-        axios
-            .post("https://hexschool-tutorial.herokuapp.com/api/signup", obj)
-            .then(function (response) {
-                if (response.data.message === "帳號註冊成功") {
-                    alert("恭喜帳號註冊成功");
-                } else {
-                    alert("帳號註冊失敗，有可能有人用你的email註冊！");
-                }
-                accountSignUp.value = "";
-                passwordSignUp.value = "";
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
-    }
-
-</script>
+<script src="./assets/js/signUp.js"></script>
 
 
         <script src="./assets/js/vendors.js"></script>

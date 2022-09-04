@@ -1251,6 +1251,16 @@ progress {
   --bs-gutter-y: 12rem;
 }
 
+.g-13,
+.gx-13 {
+  --bs-gutter-x: 8rem;
+}
+
+.g-13,
+.gy-13 {
+  --bs-gutter-y: 8rem;
+}
+
 @media (min-width: 375px) {
   .col-sm-auto {
     -webkit-box-flex: 0;
@@ -1469,6 +1479,14 @@ progress {
   .g-sm-12,
   .gy-sm-12 {
     --bs-gutter-y: 12rem;
+  }
+  .g-sm-13,
+  .gx-sm-13 {
+    --bs-gutter-x: 8rem;
+  }
+  .g-sm-13,
+  .gy-sm-13 {
+    --bs-gutter-y: 8rem;
   }
 }
 
@@ -1691,6 +1709,14 @@ progress {
   .gy-md-12 {
     --bs-gutter-y: 12rem;
   }
+  .g-md-13,
+  .gx-md-13 {
+    --bs-gutter-x: 8rem;
+  }
+  .g-md-13,
+  .gy-md-13 {
+    --bs-gutter-y: 8rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -1911,6 +1937,14 @@ progress {
   .g-lg-12,
   .gy-lg-12 {
     --bs-gutter-y: 12rem;
+  }
+  .g-lg-13,
+  .gx-lg-13 {
+    --bs-gutter-x: 8rem;
+  }
+  .g-lg-13,
+  .gy-lg-13 {
+    --bs-gutter-y: 8rem;
   }
 }
 
@@ -2133,6 +2167,14 @@ progress {
   .gy-xl-12 {
     --bs-gutter-y: 12rem;
   }
+  .g-xl-13,
+  .gx-xl-13 {
+    --bs-gutter-x: 8rem;
+  }
+  .g-xl-13,
+  .gy-xl-13 {
+    --bs-gutter-y: 8rem;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -2353,6 +2395,14 @@ progress {
   .g-xxl-12,
   .gy-xxl-12 {
     --bs-gutter-y: 12rem;
+  }
+  .g-xxl-13,
+  .gx-xxl-13 {
+    --bs-gutter-x: 8rem;
+  }
+  .g-xxl-13,
+  .gy-xxl-13 {
+    --bs-gutter-y: 8rem;
   }
 }
 
@@ -8278,6 +8328,10 @@ fieldset:disabled .btn {
   gap: 12rem !important;
 }
 
+.gap-13 {
+  gap: 8rem !important;
+}
+
 .justify-content-start {
   -webkit-box-pack: start !important;
       -ms-flex-pack: start !important;
@@ -8503,6 +8557,10 @@ fieldset:disabled .btn {
   margin: 12rem !important;
 }
 
+.m-13 {
+  margin: 8rem !important;
+}
+
 .m-auto {
   margin: auto !important;
 }
@@ -8570,6 +8628,11 @@ fieldset:disabled .btn {
 .mx-12 {
   margin-right: 12rem !important;
   margin-left: 12rem !important;
+}
+
+.mx-13 {
+  margin-right: 8rem !important;
+  margin-left: 8rem !important;
 }
 
 .mx-auto {
@@ -8642,6 +8705,11 @@ fieldset:disabled .btn {
   margin-bottom: 12rem !important;
 }
 
+.my-13 {
+  margin-top: 8rem !important;
+  margin-bottom: 8rem !important;
+}
+
 .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
@@ -8697,6 +8765,10 @@ fieldset:disabled .btn {
 
 .mt-12 {
   margin-top: 12rem !important;
+}
+
+.mt-13 {
+  margin-top: 8rem !important;
 }
 
 .mt-auto {
@@ -8755,6 +8827,10 @@ fieldset:disabled .btn {
   margin-right: 12rem !important;
 }
 
+.me-13 {
+  margin-right: 8rem !important;
+}
+
 .me-auto {
   margin-right: auto !important;
 }
@@ -8809,6 +8885,10 @@ fieldset:disabled .btn {
 
 .mb-12 {
   margin-bottom: 12rem !important;
+}
+
+.mb-13 {
+  margin-bottom: 8rem !important;
 }
 
 .mb-auto {
@@ -8867,6 +8947,10 @@ fieldset:disabled .btn {
   margin-left: 12rem !important;
 }
 
+.ms-13 {
+  margin-left: 8rem !important;
+}
+
 .ms-auto {
   margin-left: auto !important;
 }
@@ -8921,6 +9005,10 @@ fieldset:disabled .btn {
 
 .p-12 {
   padding: 12rem !important;
+}
+
+.p-13 {
+  padding: 8rem !important;
 }
 
 .px-0 {
@@ -8988,6 +9076,11 @@ fieldset:disabled .btn {
   padding-left: 12rem !important;
 }
 
+.px-13 {
+  padding-right: 8rem !important;
+  padding-left: 8rem !important;
+}
+
 .py-0 {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -9053,6 +9146,11 @@ fieldset:disabled .btn {
   padding-bottom: 12rem !important;
 }
 
+.py-13 {
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+}
+
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -9103,6 +9201,10 @@ fieldset:disabled .btn {
 
 .pt-12 {
   padding-top: 12rem !important;
+}
+
+.pt-13 {
+  padding-top: 8rem !important;
 }
 
 .pe-0 {
@@ -9157,6 +9259,10 @@ fieldset:disabled .btn {
   padding-right: 12rem !important;
 }
 
+.pe-13 {
+  padding-right: 8rem !important;
+}
+
 .pb-0 {
   padding-bottom: 0 !important;
 }
@@ -9209,6 +9315,10 @@ fieldset:disabled .btn {
   padding-bottom: 12rem !important;
 }
 
+.pb-13 {
+  padding-bottom: 8rem !important;
+}
+
 .ps-0 {
   padding-left: 0 !important;
 }
@@ -9259,6 +9369,10 @@ fieldset:disabled .btn {
 
 .ps-12 {
   padding-left: 12rem !important;
+}
+
+.ps-13 {
+  padding-left: 8rem !important;
 }
 
 .font-monospace {
@@ -9723,6 +9837,9 @@ fieldset:disabled .btn {
   .gap-sm-12 {
     gap: 12rem !important;
   }
+  .gap-sm-13 {
+    gap: 8rem !important;
+  }
   .justify-content-sm-start {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
@@ -9904,6 +10021,9 @@ fieldset:disabled .btn {
   .m-sm-12 {
     margin: 12rem !important;
   }
+  .m-sm-13 {
+    margin: 8rem !important;
+  }
   .m-sm-auto {
     margin: auto !important;
   }
@@ -9958,6 +10078,10 @@ fieldset:disabled .btn {
   .mx-sm-12 {
     margin-right: 12rem !important;
     margin-left: 12rem !important;
+  }
+  .mx-sm-13 {
+    margin-right: 8rem !important;
+    margin-left: 8rem !important;
   }
   .mx-sm-auto {
     margin-right: auto !important;
@@ -10015,6 +10139,10 @@ fieldset:disabled .btn {
     margin-top: 12rem !important;
     margin-bottom: 12rem !important;
   }
+  .my-sm-13 {
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+  }
   .my-sm-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -10058,6 +10186,9 @@ fieldset:disabled .btn {
   .mt-sm-12 {
     margin-top: 12rem !important;
   }
+  .mt-sm-13 {
+    margin-top: 8rem !important;
+  }
   .mt-sm-auto {
     margin-top: auto !important;
   }
@@ -10099,6 +10230,9 @@ fieldset:disabled .btn {
   }
   .me-sm-12 {
     margin-right: 12rem !important;
+  }
+  .me-sm-13 {
+    margin-right: 8rem !important;
   }
   .me-sm-auto {
     margin-right: auto !important;
@@ -10142,6 +10276,9 @@ fieldset:disabled .btn {
   .mb-sm-12 {
     margin-bottom: 12rem !important;
   }
+  .mb-sm-13 {
+    margin-bottom: 8rem !important;
+  }
   .mb-sm-auto {
     margin-bottom: auto !important;
   }
@@ -10184,6 +10321,9 @@ fieldset:disabled .btn {
   .ms-sm-12 {
     margin-left: 12rem !important;
   }
+  .ms-sm-13 {
+    margin-left: 8rem !important;
+  }
   .ms-sm-auto {
     margin-left: auto !important;
   }
@@ -10225,6 +10365,9 @@ fieldset:disabled .btn {
   }
   .p-sm-12 {
     padding: 12rem !important;
+  }
+  .p-sm-13 {
+    padding: 8rem !important;
   }
   .px-sm-0 {
     padding-right: 0 !important;
@@ -10278,6 +10421,10 @@ fieldset:disabled .btn {
     padding-right: 12rem !important;
     padding-left: 12rem !important;
   }
+  .px-sm-13 {
+    padding-right: 8rem !important;
+    padding-left: 8rem !important;
+  }
   .py-sm-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -10330,6 +10477,10 @@ fieldset:disabled .btn {
     padding-top: 12rem !important;
     padding-bottom: 12rem !important;
   }
+  .py-sm-13 {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+  }
   .pt-sm-0 {
     padding-top: 0 !important;
   }
@@ -10368,6 +10519,9 @@ fieldset:disabled .btn {
   }
   .pt-sm-12 {
     padding-top: 12rem !important;
+  }
+  .pt-sm-13 {
+    padding-top: 8rem !important;
   }
   .pe-sm-0 {
     padding-right: 0 !important;
@@ -10408,6 +10562,9 @@ fieldset:disabled .btn {
   .pe-sm-12 {
     padding-right: 12rem !important;
   }
+  .pe-sm-13 {
+    padding-right: 8rem !important;
+  }
   .pb-sm-0 {
     padding-bottom: 0 !important;
   }
@@ -10447,6 +10604,9 @@ fieldset:disabled .btn {
   .pb-sm-12 {
     padding-bottom: 12rem !important;
   }
+  .pb-sm-13 {
+    padding-bottom: 8rem !important;
+  }
   .ps-sm-0 {
     padding-left: 0 !important;
   }
@@ -10485,6 +10645,9 @@ fieldset:disabled .btn {
   }
   .ps-sm-12 {
     padding-left: 12rem !important;
+  }
+  .ps-sm-13 {
+    padding-left: 8rem !important;
   }
   .fs-sm-1 {
     font-size: calc(1.425rem + 2.1vw) !important;
@@ -10656,6 +10819,9 @@ fieldset:disabled .btn {
   }
   .gap-md-12 {
     gap: 12rem !important;
+  }
+  .gap-md-13 {
+    gap: 8rem !important;
   }
   .justify-content-md-start {
     -webkit-box-pack: start !important;
@@ -10838,6 +11004,9 @@ fieldset:disabled .btn {
   .m-md-12 {
     margin: 12rem !important;
   }
+  .m-md-13 {
+    margin: 8rem !important;
+  }
   .m-md-auto {
     margin: auto !important;
   }
@@ -10892,6 +11061,10 @@ fieldset:disabled .btn {
   .mx-md-12 {
     margin-right: 12rem !important;
     margin-left: 12rem !important;
+  }
+  .mx-md-13 {
+    margin-right: 8rem !important;
+    margin-left: 8rem !important;
   }
   .mx-md-auto {
     margin-right: auto !important;
@@ -10949,6 +11122,10 @@ fieldset:disabled .btn {
     margin-top: 12rem !important;
     margin-bottom: 12rem !important;
   }
+  .my-md-13 {
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+  }
   .my-md-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -10992,6 +11169,9 @@ fieldset:disabled .btn {
   .mt-md-12 {
     margin-top: 12rem !important;
   }
+  .mt-md-13 {
+    margin-top: 8rem !important;
+  }
   .mt-md-auto {
     margin-top: auto !important;
   }
@@ -11033,6 +11213,9 @@ fieldset:disabled .btn {
   }
   .me-md-12 {
     margin-right: 12rem !important;
+  }
+  .me-md-13 {
+    margin-right: 8rem !important;
   }
   .me-md-auto {
     margin-right: auto !important;
@@ -11076,6 +11259,9 @@ fieldset:disabled .btn {
   .mb-md-12 {
     margin-bottom: 12rem !important;
   }
+  .mb-md-13 {
+    margin-bottom: 8rem !important;
+  }
   .mb-md-auto {
     margin-bottom: auto !important;
   }
@@ -11118,6 +11304,9 @@ fieldset:disabled .btn {
   .ms-md-12 {
     margin-left: 12rem !important;
   }
+  .ms-md-13 {
+    margin-left: 8rem !important;
+  }
   .ms-md-auto {
     margin-left: auto !important;
   }
@@ -11159,6 +11348,9 @@ fieldset:disabled .btn {
   }
   .p-md-12 {
     padding: 12rem !important;
+  }
+  .p-md-13 {
+    padding: 8rem !important;
   }
   .px-md-0 {
     padding-right: 0 !important;
@@ -11212,6 +11404,10 @@ fieldset:disabled .btn {
     padding-right: 12rem !important;
     padding-left: 12rem !important;
   }
+  .px-md-13 {
+    padding-right: 8rem !important;
+    padding-left: 8rem !important;
+  }
   .py-md-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -11264,6 +11460,10 @@ fieldset:disabled .btn {
     padding-top: 12rem !important;
     padding-bottom: 12rem !important;
   }
+  .py-md-13 {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+  }
   .pt-md-0 {
     padding-top: 0 !important;
   }
@@ -11302,6 +11502,9 @@ fieldset:disabled .btn {
   }
   .pt-md-12 {
     padding-top: 12rem !important;
+  }
+  .pt-md-13 {
+    padding-top: 8rem !important;
   }
   .pe-md-0 {
     padding-right: 0 !important;
@@ -11342,6 +11545,9 @@ fieldset:disabled .btn {
   .pe-md-12 {
     padding-right: 12rem !important;
   }
+  .pe-md-13 {
+    padding-right: 8rem !important;
+  }
   .pb-md-0 {
     padding-bottom: 0 !important;
   }
@@ -11381,6 +11587,9 @@ fieldset:disabled .btn {
   .pb-md-12 {
     padding-bottom: 12rem !important;
   }
+  .pb-md-13 {
+    padding-bottom: 8rem !important;
+  }
   .ps-md-0 {
     padding-left: 0 !important;
   }
@@ -11419,6 +11628,9 @@ fieldset:disabled .btn {
   }
   .ps-md-12 {
     padding-left: 12rem !important;
+  }
+  .ps-md-13 {
+    padding-left: 8rem !important;
   }
   .fs-md-1 {
     font-size: calc(1.425rem + 2.1vw) !important;
@@ -11590,6 +11802,9 @@ fieldset:disabled .btn {
   }
   .gap-lg-12 {
     gap: 12rem !important;
+  }
+  .gap-lg-13 {
+    gap: 8rem !important;
   }
   .justify-content-lg-start {
     -webkit-box-pack: start !important;
@@ -11772,6 +11987,9 @@ fieldset:disabled .btn {
   .m-lg-12 {
     margin: 12rem !important;
   }
+  .m-lg-13 {
+    margin: 8rem !important;
+  }
   .m-lg-auto {
     margin: auto !important;
   }
@@ -11826,6 +12044,10 @@ fieldset:disabled .btn {
   .mx-lg-12 {
     margin-right: 12rem !important;
     margin-left: 12rem !important;
+  }
+  .mx-lg-13 {
+    margin-right: 8rem !important;
+    margin-left: 8rem !important;
   }
   .mx-lg-auto {
     margin-right: auto !important;
@@ -11883,6 +12105,10 @@ fieldset:disabled .btn {
     margin-top: 12rem !important;
     margin-bottom: 12rem !important;
   }
+  .my-lg-13 {
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+  }
   .my-lg-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -11926,6 +12152,9 @@ fieldset:disabled .btn {
   .mt-lg-12 {
     margin-top: 12rem !important;
   }
+  .mt-lg-13 {
+    margin-top: 8rem !important;
+  }
   .mt-lg-auto {
     margin-top: auto !important;
   }
@@ -11967,6 +12196,9 @@ fieldset:disabled .btn {
   }
   .me-lg-12 {
     margin-right: 12rem !important;
+  }
+  .me-lg-13 {
+    margin-right: 8rem !important;
   }
   .me-lg-auto {
     margin-right: auto !important;
@@ -12010,6 +12242,9 @@ fieldset:disabled .btn {
   .mb-lg-12 {
     margin-bottom: 12rem !important;
   }
+  .mb-lg-13 {
+    margin-bottom: 8rem !important;
+  }
   .mb-lg-auto {
     margin-bottom: auto !important;
   }
@@ -12052,6 +12287,9 @@ fieldset:disabled .btn {
   .ms-lg-12 {
     margin-left: 12rem !important;
   }
+  .ms-lg-13 {
+    margin-left: 8rem !important;
+  }
   .ms-lg-auto {
     margin-left: auto !important;
   }
@@ -12093,6 +12331,9 @@ fieldset:disabled .btn {
   }
   .p-lg-12 {
     padding: 12rem !important;
+  }
+  .p-lg-13 {
+    padding: 8rem !important;
   }
   .px-lg-0 {
     padding-right: 0 !important;
@@ -12146,6 +12387,10 @@ fieldset:disabled .btn {
     padding-right: 12rem !important;
     padding-left: 12rem !important;
   }
+  .px-lg-13 {
+    padding-right: 8rem !important;
+    padding-left: 8rem !important;
+  }
   .py-lg-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -12198,6 +12443,10 @@ fieldset:disabled .btn {
     padding-top: 12rem !important;
     padding-bottom: 12rem !important;
   }
+  .py-lg-13 {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+  }
   .pt-lg-0 {
     padding-top: 0 !important;
   }
@@ -12236,6 +12485,9 @@ fieldset:disabled .btn {
   }
   .pt-lg-12 {
     padding-top: 12rem !important;
+  }
+  .pt-lg-13 {
+    padding-top: 8rem !important;
   }
   .pe-lg-0 {
     padding-right: 0 !important;
@@ -12276,6 +12528,9 @@ fieldset:disabled .btn {
   .pe-lg-12 {
     padding-right: 12rem !important;
   }
+  .pe-lg-13 {
+    padding-right: 8rem !important;
+  }
   .pb-lg-0 {
     padding-bottom: 0 !important;
   }
@@ -12315,6 +12570,9 @@ fieldset:disabled .btn {
   .pb-lg-12 {
     padding-bottom: 12rem !important;
   }
+  .pb-lg-13 {
+    padding-bottom: 8rem !important;
+  }
   .ps-lg-0 {
     padding-left: 0 !important;
   }
@@ -12353,6 +12611,9 @@ fieldset:disabled .btn {
   }
   .ps-lg-12 {
     padding-left: 12rem !important;
+  }
+  .ps-lg-13 {
+    padding-left: 8rem !important;
   }
   .fs-lg-1 {
     font-size: calc(1.425rem + 2.1vw) !important;
@@ -12524,6 +12785,9 @@ fieldset:disabled .btn {
   }
   .gap-xl-12 {
     gap: 12rem !important;
+  }
+  .gap-xl-13 {
+    gap: 8rem !important;
   }
   .justify-content-xl-start {
     -webkit-box-pack: start !important;
@@ -12706,6 +12970,9 @@ fieldset:disabled .btn {
   .m-xl-12 {
     margin: 12rem !important;
   }
+  .m-xl-13 {
+    margin: 8rem !important;
+  }
   .m-xl-auto {
     margin: auto !important;
   }
@@ -12760,6 +13027,10 @@ fieldset:disabled .btn {
   .mx-xl-12 {
     margin-right: 12rem !important;
     margin-left: 12rem !important;
+  }
+  .mx-xl-13 {
+    margin-right: 8rem !important;
+    margin-left: 8rem !important;
   }
   .mx-xl-auto {
     margin-right: auto !important;
@@ -12817,6 +13088,10 @@ fieldset:disabled .btn {
     margin-top: 12rem !important;
     margin-bottom: 12rem !important;
   }
+  .my-xl-13 {
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+  }
   .my-xl-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -12860,6 +13135,9 @@ fieldset:disabled .btn {
   .mt-xl-12 {
     margin-top: 12rem !important;
   }
+  .mt-xl-13 {
+    margin-top: 8rem !important;
+  }
   .mt-xl-auto {
     margin-top: auto !important;
   }
@@ -12901,6 +13179,9 @@ fieldset:disabled .btn {
   }
   .me-xl-12 {
     margin-right: 12rem !important;
+  }
+  .me-xl-13 {
+    margin-right: 8rem !important;
   }
   .me-xl-auto {
     margin-right: auto !important;
@@ -12944,6 +13225,9 @@ fieldset:disabled .btn {
   .mb-xl-12 {
     margin-bottom: 12rem !important;
   }
+  .mb-xl-13 {
+    margin-bottom: 8rem !important;
+  }
   .mb-xl-auto {
     margin-bottom: auto !important;
   }
@@ -12986,6 +13270,9 @@ fieldset:disabled .btn {
   .ms-xl-12 {
     margin-left: 12rem !important;
   }
+  .ms-xl-13 {
+    margin-left: 8rem !important;
+  }
   .ms-xl-auto {
     margin-left: auto !important;
   }
@@ -13027,6 +13314,9 @@ fieldset:disabled .btn {
   }
   .p-xl-12 {
     padding: 12rem !important;
+  }
+  .p-xl-13 {
+    padding: 8rem !important;
   }
   .px-xl-0 {
     padding-right: 0 !important;
@@ -13080,6 +13370,10 @@ fieldset:disabled .btn {
     padding-right: 12rem !important;
     padding-left: 12rem !important;
   }
+  .px-xl-13 {
+    padding-right: 8rem !important;
+    padding-left: 8rem !important;
+  }
   .py-xl-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -13132,6 +13426,10 @@ fieldset:disabled .btn {
     padding-top: 12rem !important;
     padding-bottom: 12rem !important;
   }
+  .py-xl-13 {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+  }
   .pt-xl-0 {
     padding-top: 0 !important;
   }
@@ -13170,6 +13468,9 @@ fieldset:disabled .btn {
   }
   .pt-xl-12 {
     padding-top: 12rem !important;
+  }
+  .pt-xl-13 {
+    padding-top: 8rem !important;
   }
   .pe-xl-0 {
     padding-right: 0 !important;
@@ -13210,6 +13511,9 @@ fieldset:disabled .btn {
   .pe-xl-12 {
     padding-right: 12rem !important;
   }
+  .pe-xl-13 {
+    padding-right: 8rem !important;
+  }
   .pb-xl-0 {
     padding-bottom: 0 !important;
   }
@@ -13249,6 +13553,9 @@ fieldset:disabled .btn {
   .pb-xl-12 {
     padding-bottom: 12rem !important;
   }
+  .pb-xl-13 {
+    padding-bottom: 8rem !important;
+  }
   .ps-xl-0 {
     padding-left: 0 !important;
   }
@@ -13287,6 +13594,9 @@ fieldset:disabled .btn {
   }
   .ps-xl-12 {
     padding-left: 12rem !important;
+  }
+  .ps-xl-13 {
+    padding-left: 8rem !important;
   }
   .fs-xl-1 {
     font-size: calc(1.425rem + 2.1vw) !important;
@@ -13458,6 +13768,9 @@ fieldset:disabled .btn {
   }
   .gap-xxl-12 {
     gap: 12rem !important;
+  }
+  .gap-xxl-13 {
+    gap: 8rem !important;
   }
   .justify-content-xxl-start {
     -webkit-box-pack: start !important;
@@ -13640,6 +13953,9 @@ fieldset:disabled .btn {
   .m-xxl-12 {
     margin: 12rem !important;
   }
+  .m-xxl-13 {
+    margin: 8rem !important;
+  }
   .m-xxl-auto {
     margin: auto !important;
   }
@@ -13694,6 +14010,10 @@ fieldset:disabled .btn {
   .mx-xxl-12 {
     margin-right: 12rem !important;
     margin-left: 12rem !important;
+  }
+  .mx-xxl-13 {
+    margin-right: 8rem !important;
+    margin-left: 8rem !important;
   }
   .mx-xxl-auto {
     margin-right: auto !important;
@@ -13751,6 +14071,10 @@ fieldset:disabled .btn {
     margin-top: 12rem !important;
     margin-bottom: 12rem !important;
   }
+  .my-xxl-13 {
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+  }
   .my-xxl-auto {
     margin-top: auto !important;
     margin-bottom: auto !important;
@@ -13794,6 +14118,9 @@ fieldset:disabled .btn {
   .mt-xxl-12 {
     margin-top: 12rem !important;
   }
+  .mt-xxl-13 {
+    margin-top: 8rem !important;
+  }
   .mt-xxl-auto {
     margin-top: auto !important;
   }
@@ -13835,6 +14162,9 @@ fieldset:disabled .btn {
   }
   .me-xxl-12 {
     margin-right: 12rem !important;
+  }
+  .me-xxl-13 {
+    margin-right: 8rem !important;
   }
   .me-xxl-auto {
     margin-right: auto !important;
@@ -13878,6 +14208,9 @@ fieldset:disabled .btn {
   .mb-xxl-12 {
     margin-bottom: 12rem !important;
   }
+  .mb-xxl-13 {
+    margin-bottom: 8rem !important;
+  }
   .mb-xxl-auto {
     margin-bottom: auto !important;
   }
@@ -13920,6 +14253,9 @@ fieldset:disabled .btn {
   .ms-xxl-12 {
     margin-left: 12rem !important;
   }
+  .ms-xxl-13 {
+    margin-left: 8rem !important;
+  }
   .ms-xxl-auto {
     margin-left: auto !important;
   }
@@ -13961,6 +14297,9 @@ fieldset:disabled .btn {
   }
   .p-xxl-12 {
     padding: 12rem !important;
+  }
+  .p-xxl-13 {
+    padding: 8rem !important;
   }
   .px-xxl-0 {
     padding-right: 0 !important;
@@ -14014,6 +14353,10 @@ fieldset:disabled .btn {
     padding-right: 12rem !important;
     padding-left: 12rem !important;
   }
+  .px-xxl-13 {
+    padding-right: 8rem !important;
+    padding-left: 8rem !important;
+  }
   .py-xxl-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -14066,6 +14409,10 @@ fieldset:disabled .btn {
     padding-top: 12rem !important;
     padding-bottom: 12rem !important;
   }
+  .py-xxl-13 {
+    padding-top: 8rem !important;
+    padding-bottom: 8rem !important;
+  }
   .pt-xxl-0 {
     padding-top: 0 !important;
   }
@@ -14104,6 +14451,9 @@ fieldset:disabled .btn {
   }
   .pt-xxl-12 {
     padding-top: 12rem !important;
+  }
+  .pt-xxl-13 {
+    padding-top: 8rem !important;
   }
   .pe-xxl-0 {
     padding-right: 0 !important;
@@ -14144,6 +14494,9 @@ fieldset:disabled .btn {
   .pe-xxl-12 {
     padding-right: 12rem !important;
   }
+  .pe-xxl-13 {
+    padding-right: 8rem !important;
+  }
   .pb-xxl-0 {
     padding-bottom: 0 !important;
   }
@@ -14183,6 +14536,9 @@ fieldset:disabled .btn {
   .pb-xxl-12 {
     padding-bottom: 12rem !important;
   }
+  .pb-xxl-13 {
+    padding-bottom: 8rem !important;
+  }
   .ps-xxl-0 {
     padding-left: 0 !important;
   }
@@ -14221,6 +14577,9 @@ fieldset:disabled .btn {
   }
   .ps-xxl-12 {
     padding-left: 12rem !important;
+  }
+  .ps-xxl-13 {
+    padding-left: 8rem !important;
   }
   .fs-xxl-1 {
     font-size: calc(1.425rem + 2.1vw) !important;
@@ -14342,6 +14701,7 @@ fieldset:disabled .btn {
 body {
   background-color: #FFFDEE;
   line-height: 1.5;
+  font-size: 16px;
 }
 
 *,
@@ -14556,10 +14916,20 @@ a {
   height: 50px;
 }
 
+.signInFormBox .sendSignIn {
+  max-width: 524px;
+  width: 100%;
+}
+
 .signUp {
   position: relative;
   -webkit-box-shadow: 0 4px 6px #B3193F;
           box-shadow: 0 4px 6px #B3193F;
+}
+
+.sendSignUp {
+  max-width: 524px;
+  width: 100%;
 }
 
 .navMain {
@@ -14842,6 +15212,39 @@ a {
   cursor: pointer;
 }
 
+.vocabularys .modelone,
+.vocabularys .modeltwo {
+  border: none;
+  -webkit-box-shadow: 0 2px 6px #1D2D51;
+          box-shadow: 0 2px 6px #1D2D51;
+  border-radius: 16px;
+  max-width: 380px;
+  width: 100%;
+}
+
+.vocabularys .modelone .closebox,
+.vocabularys .modeltwo .closebox {
+  margin-top: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.vocabularys .modelone .infobox,
+.vocabularys .modeltwo .infobox {
+  border: none;
+  outline: 0;
+  border-bottom: 3px solid #1D2D51;
+  color: #B3193F;
+}
+
+.vocabularys .modelone::-webkit-backdrop {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.vocabularys .modelone::backdrop {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .bgs7 {
   background-color: #F9EECC;
 }
@@ -15115,6 +15518,13 @@ a {
   color: #B3193F;
 }
 
+.vocabulary {
+  border: 3px solid #1D2D51;
+  border-radius: 8px;
+  padding: 0 8px;
+  color: #B3193F;
+}
+
 .exampaper {
   max-width: 860px;
   width: 100%;
@@ -15173,6 +15583,15 @@ a {
 
 .exampaper .answer .yonn {
   background-color: #F9EECC;
+}
+
+.q {
+  background: #949F59;
+  border-radius: 16px;
+}
+
+.q .body {
+  border-radius: 16px;
 }
 
 /*# sourceMappingURL=all.css.map */
