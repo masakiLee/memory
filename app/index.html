@@ -34,25 +34,24 @@ engine: ejs
                         <p class="tagName2 text-third fs-6 text-center">註冊</p>
                     </div>
                 </a>
-                <form method="post"
-                    class="signInFormBox d-flex flex-column justify-content-center align-items-center mx-auto px-3">
+                <form class="signInFormBox d-flex flex-column justify-content-center align-items-center mx-auto px-3">
                     <p class="fs-1 text-third lh-base mt-4 mt-md-6 mb-5">歡迎回來</p>
                     <label class="emailBox mb-3">
                         <span class="material-symbols-outlined person text-primary fs-1">
                             person_filled
                         </span>
                         <input type="email" name="email" placeholder="請輸入帳號"
-                            class="bg-third text-primary rounded-1 border-0 fs-2">
+                            class="bg-third text-primary rounded-1 border-0 fs-2 accountSignIn">
                     </label>
                     <label class="passwordBox">
                         <span class="material-symbols-outlined key text-primary fs-1">
                             key
                         </span>
                         <input type="password" name="password" placeholder="請輸入密碼"
-                            class="bg-third text-primary rounded-1 border-0 fs-2">
+                            class="bg-third text-primary rounded-1 border-0 fs-2 passwordSignIn">
                     </label>
                     <small class="my-2 align-self-end"><a href="#" class="text-third forgot fs-4">忘記密碼</a></small>
-                    <input type="submit" class="py-3 text-primary bg-secondary rounded-1 border-0 mb-5 fs-2"
+                    <input type="button" class="py-3 text-primary bg-secondary rounded-1 border-0 mb-5 fs-2 sendSignIn"
                         value="登入"></input>
                     <small class="other text-third fs-4">使用其他方式登入</small>
                     <ul class="social d-flex justify-content-center mb-8 mb-sm-5 mt-4 mt-sm-3">
@@ -66,8 +65,5 @@ engine: ejs
         </div>
     </div>
 </div>
-
-<script>
-
-
-</script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="./assets/js/index.js"></script>

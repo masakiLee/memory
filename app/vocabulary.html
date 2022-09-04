@@ -33,6 +33,12 @@ current: index
                     <div class="card-body bg-success text-third rounded-bottom d-flex justify-content-between">
                         <h5 class="card-title fs-3 mb-0 align-self-center">日檢單字</h5>
                         <img src="./assets/images/del.png" alt="del" class="del">
+                        <dialog id="infoModalone" class="p-5 text-primary border-primary border border-5 modelone">
+                            <p class="fs-2 mb-2">刪除文件夾</p>
+                            <div id="closeone" class="closebox p-2 bg-danger text-third ms-auto w-50 text-center fs-3">
+                                確定
+                            </div>
+                        </dialog>
                     </div>
                 </a>
             </div>
@@ -78,5 +84,12 @@ current: index
                 add
             </span>
         </botton>
+        <dialog id="infoModaltwo" class="p-5 text-primary border-primary border border-5 modelone">
+            <p class="fs-2 mb-2">新增文件夾</p>
+            <input type="text" placeholder="名稱" class="infobox w-100 fs-3">
+            <div id="closetwo" class="closebox p-2 bg-danger text-third ms-auto w-50 text-center fs-3">確定
+            </div>
+        </dialog>
     </div>
 </div>
+<script src="./assets/js/vocabulary.js"></script>

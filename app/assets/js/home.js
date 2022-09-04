@@ -28,7 +28,7 @@ setInterval(countDown, 1000); //每一秒更新
 
 // 簽到函數;
 function clock() {
-  let clock = Number(continuous.innerHTML);
-  clock += 1;
-  continuous.innerHTML = clock++;
+  let punch = Number(continuous.innerHTML);
+  punch += 1;
+  continuous.innerHTML = punch++;
 }

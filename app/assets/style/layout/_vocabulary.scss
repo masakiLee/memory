@@ -60,4 +60,31 @@
     .del {
         cursor: pointer;
     }
+
+    .modelone,
+    .modeltwo {
+        border: none;
+        box-shadow: 0 2px 6px $primary;
+        border-radius: 16px;
+        max-width: 380px;
+        width: 100%;
+
+        .closebox {
+            margin-top: 32px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .infobox {
+            border: none;
+            outline: 0;
+            border-bottom: 3px solid $primary;
+            color: $danger;
+        }
+    }
+
+    .modelone::backdrop {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
 }
