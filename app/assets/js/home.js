@@ -3,6 +3,7 @@ let one = document.querySelector(".one"); //倒數天數第一格
 let two = document.querySelector(".two"); //倒數天數第二格
 let three = document.querySelector(".three"); //倒數天數第三格
 let inputTime = new Date("2022-12-04 00:00:00"); //最後一天日期
+let user = document.querySelector(".user"); //人名
 
 // 簽到綁定元素
 let clockOn = document.getElementById("clockOn");
@@ -32,3 +33,19 @@ function clock() {
   punch += 1;
   continuous.innerHTML = punch++;
 }
+
+user.onfocus = function () {
+  this.value = "";
+};
+
+user.onblur = function () {
+  if (this.value === "") {
+    this.value = "userName";
+  }
+  // else {
+  //   localStorage.setItem("name", this.value);
+  //   this.value = localStorage.getItem("name");
+  // }
+
+  this.style.color = "#1D2D51";
+};

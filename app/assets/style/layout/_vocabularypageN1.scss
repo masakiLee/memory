@@ -5,6 +5,7 @@
 .accordion-body {
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
+    background-color: $secondary-300;
 }
 
 
@@ -81,6 +82,34 @@
         pointer-events: none;
         transition: all 0.3s ease;
         padding-left: 4px;
+    }
+}
+
+.part {
+    font-size: 24px;
+    border: 3px solid $primary;
+    color: $primary;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+
+    &:hover {
+        border: 3px solid $danger;
+        background-color: $danger;
+        color: white;
+    }
+}
+
+.add {
+    border: 3px solid $primary;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+
+    &:hover {
+        border: 3px solid $danger;
+        background-color: $danger;
+        color: white;
     }
 }
 

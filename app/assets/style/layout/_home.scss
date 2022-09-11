@@ -39,6 +39,7 @@
     }
 }
 
+
 .recommendBox {
     height: 506px;
     overflow: hidden;
@@ -101,6 +102,14 @@
     }
 }
 
+.user {
+    max-width: 200px;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    color: $primary-900;
+}
+
 
 .checkBox {
     border-radius: 16px;
@@ -116,7 +125,6 @@
         vertical-align: middle;
     }
 }
-
 
 .count {
     .time {

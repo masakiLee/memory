@@ -2,6 +2,11 @@
 const accountSignIn = document.querySelector(".accountSignIn");
 const passwordSignIn = document.querySelector(".passwordSignIn");
 const sendSignIn = document.querySelector(".sendSignIn");
+const forgot = document.querySelector(".forgot");
+const infoModalforgot = document.querySelector("#infoModalforgot");
+const closeforgot = document.querySelector("#closeforgot");
+const forgotsend = document.querySelector(".forgotsend");
+let time = 10; //到計時10秒
 
 sendSignIn.addEventListener("click", function (e) {
   callSignIn();
@@ -32,3 +37,28 @@ function callSignIn() {
       console.log(error);
     });
 }
+
+forgot.addEventListener("click", function (e) {
+  infoModalforgot.showModal();
+  e.preventDefault();
+});
+
+closeforgot.addEventListener("click", function (e) {
+  infoModalforgot.close();
+  e.preventDefault();
+});
+
+forgotsend.addEventListener("click", function (e) {
+  forgotsend.disabled = "true";
+  var timer = setInterval(function () {
+    if (time == 0) {
+      clearInterval(timer);
+      forgotsend.disabled = false;
+      forgotsend.innerHTML = "發送驗證碼";
+      time = 10;
+    } else {
+      forgotsend.innerHTML = `還剩下${time}秒`;
+      time--;
+    }
+  }, 1000);
+});

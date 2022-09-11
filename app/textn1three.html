@@ -5,26 +5,43 @@ engine: ejs
 current: index
 ---
 
-<div class="col-12 col-xxl-10 textn1 my-6">
+<div class="col-12 col-xxl-10 textn1  my-auto">
     <div class="exampaper mx-auto p-3 p-md-5">
         <p class="fs-2 text-success text-end pb-3 border-bottom border-secondary border-3">3/3</p>
-        <p class="fs-3 text-pirmary text-center pt-4 pb-3">__の言葉の読み方として最もよいものを、<br>
+        <p class="fs-3 text-pirmary text-center pt-4 pb-3" data-aos="flip-up">__の言葉の読み方として最もよいものを、<br>
             １．２．３．４から一つ選びなさい。</p>
-        <p class="text-primary py-6 px-5 fs-3 topic mb-5">
+        <p class="text-primary py-6 px-5 fs-3 topic mb-5" data-aos="flip-up">
             新聞の記事からニュースを<span class="text-secondary text-decoration-underline">抜粋</span>して、レポートの参考にしている。
         </p>
-        <ul class="answer d-flex flex-wrap">
-            <li type="button" class="fs-3 botan ichi p-3 border-0 mb-3">1.ねきずい</li>
-            <li type="button" class="fs-3 botan ni p-3 border-0 mb-3">2.ばっすい</li>
-            <li type="button" class="fs-3 botan sann p-3 border-0">3.ばつすい</li>
-            <li type="button" class="fs-3 botan yonn p-3 border-0">4.ぬきすい</li>
+        <ul class="answer d-flex flex-wrap text-primary pb-4 border-bottom border-secondary border-3">
+            <li type="button"
+                class="fs-3 botan ichi border-0 mb-3 py-3 px-5 d-flex align-items-center justify-content-between"
+                data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600" data-aos-offset="0"><a
+                    href="#" class="d-block">1.ねきずい</a><span class="material-symbols-outlined maku bazu fs-2">
+                    cancel
+                </span></li>
+            <li type="button"
+                class="fs-3 botan ni border-0 mb-3 py-3 px-5 d-flex align-items-center justify-content-between"
+                data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600" data-aos-offset="0"><a
+                    href="#" class="d-block">2.ばっすい</a><span class="material-symbols-outlined maku maru fs-2">
+                    task_alt
+                </span></li>
+            <li type="button"
+                class="fs-3 botan sann border-0 py-3 px-5 d-flex align-items-center justify-content-between"
+                data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600" data-aos-offset="0"><a
+                    href="#" class="d-block">3.ばつすい</a><span class="material-symbols-outlined maku bazu fs-2">
+                    cancel
+                </span></li>
+            <li type="button"
+                class="fs-3 botan yonn border-0 py-3 px-5 d-flex align-items-center justify-content-between"
+                data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600" data-aos-offset="0"><a
+                    href="#" class="d-block">4.ぬきすい</a><span class="material-symbols-outlined maku bazu fs-2">
+                    cancel
+                </span></li>
         </ul>
-        <div class="d-grid mt-3 mt-md-5 pb-4 border-bottom border-secondary border-3">
-            <button class="btn btn-danger fs-2 p-2" type="button">送出</button>
-        </div>
-        <ul class="kotae pt-4 d-flex justify-content-between align-items-center">
-            <li class="fs-md-2">解答：2.ばっすい</li>
-            <li class="btn btn-success fs-2 px-3 px-md-8"><a href="./total.html" class="text-third">總計</a></li>
+        <ul class="pt-4 d-flex align-items-center">
+            <li class="btn btn-danger fs-2 px-3 px-md-8 ms-auto" data-aos="flip-up"><a type="button" href="./total.html"
+                    class="text-third">總計</a></li>
         </ul>
     </div>
 </div>

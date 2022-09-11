@@ -8,6 +8,7 @@
   <title>
     <%- title %>
   </title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/4d58487456.js" crossorigin="anonymous"></script>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
@@ -23,7 +24,7 @@
           <img src="./assets/images/navUp.svg" alt="navUp" class="navUp d-none d-xxl-block" width="90" height="90">
           <div class="navBar mx-3 mx-xxl-auto mb-0 mb-xxl-10 py-2 d-flex justify-content-between">
             <h1 class="">
-              <a href="#" class="d-block">
+              <a href="./home.html" class="d-block">
                 <img src="./assets/images/logo.svg" alt="logo" class="d-none d-xxl-block">
                 <img src="./assets/images/smallLogo.svg" alt="logo" class="d-block d-xxl-none">
               </a>
@@ -36,11 +37,6 @@
             </a>
           </div>
           <ul class="navList d-flex flex-xxl-column d-none d-xxl-block pb-0 pb-xl-12">
-            <li class="navListItem active py-3 fs-2 w-100">
-              <a href="./home.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
-                  src="./assets/images/indexIcon.svg" alt="indexIcon"
-                  class="Icon ps-0 ps-xxl-5 pe-3 pe-xxl-4 align-text-top">首頁</a>
-            </li>
             <li class="navListItem py-3 fs-2 w-100">
               <a href="./vocabulary.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
                   src="./assets/images/wordIcon.svg" alt="wordIcon"
@@ -59,28 +55,21 @@
           </ul>
           <div class="collapse" id="menu">
             <ul class="navList d-flex flex-wrap d-xxl-none">
-              <li class="navListItem active py-2 py-md-3 fs-2 w-50 text-center">
-                <a href="./home.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
-                    src="./assets/images/indexIcon.svg" alt="indexIcon"
-                    class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
-                  <p class="d-inline-block">首頁</p>
-                </a>
-              </li>
-              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+              <li class="navListItem py-2 py-md-3 fs-2 w-100">
                 <a href="./vocabulary.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
                     src="./assets/images/wordIcon.svg" alt="wordIcon"
                     class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
                   <p class="d-inline-block">單字庫</p>
                 </a>
               </li>
-              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+              <li class="navListItem py-2 py-md-3 fs-2 w-100">
                 <a href="./favorite.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
                     src="./assets/images/favoriteIcon.svg" alt="Icon"
                     class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
                   <p class="d-inline-block">收藏夾</p>
                 </a>
               </li>
-              <li class="navListItem py-2 py-md-3 fs-2 w-50">
+              <li class="navListItem py-2 py-md-3 fs-2 w-100">
                 <a href="./text.html" class="text-primary d-block fs-3 text-center text-xxl-start"><img
                     src="./assets/images/textIcon.svg" alt="textIcon"
                     class="Icon ps-0 ps-xxl-5 pe-0 pe-xxl-4 align-text-top">
@@ -102,7 +91,31 @@
 
   <script src="./assets/js/vendors.js"></script>
   <!-- <script src="./assets/js/all.js"></script> -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 1000, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+    });
+  </script>
 </body>
 
 </html>

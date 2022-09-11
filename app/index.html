@@ -12,10 +12,14 @@ engine: ejs
                 <img src="./assets/images/down.svg" alt="down" class="down d-none d-lg-block">
                 <img src="./assets/images/up2.svg" alt="up2" class="up2 d-none d-md-block d-lg-none">
                 <img src="./assets/images/down2.svg" alt="down2" class="down2 d-none d-md-block d-lg-none">
-                <img src="./assets/images/logored.svg" alt="logored" class="logored d-none d-xl-block">
-                <img src="./assets/images/logored.svg" alt="logored" class="logored1 d-none d-lg-block d-xl-none">
-                <img src="./assets/images/logored2.svg" alt="logored2" class="logored2 d-none d-md-block d-lg-none">
-                <img src="./assets/images/logored3.svg" alt="logored3" class="logored3 d-block d-md-none">
+                <img src="./assets/images/logored.svg" alt="logored" class="logored d-none d-xl-block"
+                    data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img src="./assets/images/logored.svg" alt="logored" class="logored1 d-none d-lg-block d-xl-none"
+                    data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img src="./assets/images/logored2.svg" alt="logored2" class="logored2 d-none d-md-block d-lg-none"
+                    data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <img src="./assets/images/logored3.svg" alt="logored3" class="logored3 d-block d-md-none"
+                    data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                 <a href="./signUp.html">
                     <div class="tag d-none d-lg-block">
                         <img src="./assets/images/tag.svg" alt="tagIcon" class="tagIcon">
@@ -51,6 +55,19 @@ engine: ejs
                             class="bg-third text-primary rounded-1 border-0 fs-2 passwordSignIn">
                     </label>
                     <small class="my-2 align-self-end"><a href="#" class="text-third forgot fs-4">忘記密碼</a></small>
+                    <dialog id="infoModalforgot" class="p-5 text-primary border-primary border border-5 modelone">
+                        <p class="fs-2 mb-2">請輸入電子郵件</p>
+                        <div class="d-flex">
+                            <input type="text" placeholder="Email"
+                                class="forgotbox fs-3 border-0 border-bottom border-secondary border-3">
+                            <button type="button"
+                                class="fs-5 ms-4 border-0 btn btn-primary btn-lg text-third px-3 forgotsend">發送驗證碼</button>
+                        </div>
+                        <div id="closeforgot"
+                            class="closebox p-2 bg-danger text-third ms-auto w-50 text-center fs-3 mt-3 rounded rounded-1">
+                            確定
+                        </div>
+                    </dialog>
                     <input type="button" class="py-3 text-primary bg-secondary rounded-1 border-0 mb-5 fs-2 sendSignIn"
                         value="登入"></input>
                     <small class="other text-third fs-4">使用其他方式登入</small>

@@ -1,10 +1,10 @@
 const del = document.querySelector(".del");
-let infoModalone = document.querySelector("#infoModalone");
-let closeone = document.querySelector("#closeone");
+const infoModalone = document.querySelector("#infoModalone");
+const closeone = document.querySelector("#closeone");
 
 const plus = document.querySelector(".plus");
-let infoModaltwo = document.querySelector("#infoModaltwo");
-let closetwo = document.querySelector("#closetwo");
+const infoModaltwo = document.querySelector("#infoModaltwo");
+const closetwo = document.querySelector("#closetwo");
 
 del.addEventListener("click", function (e) {
   infoModalone.showModal();

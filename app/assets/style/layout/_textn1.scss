@@ -15,6 +15,7 @@
             border-radius: 16px;
             max-width: 384px;
             width: 100%;
+            cursor: pointer;
 
             @media (max-width:1199.98px) {
                 max-width: 351px;
@@ -22,6 +23,26 @@
 
             @media (max-width:991.98px) {
                 max-width: 100%;
+            }
+
+            &:active {
+                background-color: $secondary-500;
+            }
+
+            &:active .maku {
+                opacity: 1;
+            }
+
+            &:active .maru {
+                color: $success;
+            }
+
+            &:active .bazu {
+                color: $danger;
+            }
+
+            a:hover {
+                color: $primary;
             }
         }
 
@@ -51,4 +72,20 @@
             background-color: $secondary-300;
         }
     }
+
+    .maku {
+        opacity: 0;
+    }
+
+    .kotae {
+        opacity: 0;
+    }
+
+    .okuru:active .maku {
+        opacity: 1;
+    }
+}
+
+.moikai:hover {
+    color: $primary;
 }
