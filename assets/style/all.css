@@ -1243,12 +1243,12 @@ progress {
 
 .g-12,
 .gx-12 {
-  --bs-gutter-x: 12rem;
+  --bs-gutter-x: 16.75rem;
 }
 
 .g-12,
 .gy-12 {
-  --bs-gutter-y: 12rem;
+  --bs-gutter-y: 16.75rem;
 }
 
 .g-13,
@@ -1474,11 +1474,11 @@ progress {
   }
   .g-sm-12,
   .gx-sm-12 {
-    --bs-gutter-x: 12rem;
+    --bs-gutter-x: 16.75rem;
   }
   .g-sm-12,
   .gy-sm-12 {
-    --bs-gutter-y: 12rem;
+    --bs-gutter-y: 16.75rem;
   }
   .g-sm-13,
   .gx-sm-13 {
@@ -1703,11 +1703,11 @@ progress {
   }
   .g-md-12,
   .gx-md-12 {
-    --bs-gutter-x: 12rem;
+    --bs-gutter-x: 16.75rem;
   }
   .g-md-12,
   .gy-md-12 {
-    --bs-gutter-y: 12rem;
+    --bs-gutter-y: 16.75rem;
   }
   .g-md-13,
   .gx-md-13 {
@@ -1932,11 +1932,11 @@ progress {
   }
   .g-lg-12,
   .gx-lg-12 {
-    --bs-gutter-x: 12rem;
+    --bs-gutter-x: 16.75rem;
   }
   .g-lg-12,
   .gy-lg-12 {
-    --bs-gutter-y: 12rem;
+    --bs-gutter-y: 16.75rem;
   }
   .g-lg-13,
   .gx-lg-13 {
@@ -2161,11 +2161,11 @@ progress {
   }
   .g-xl-12,
   .gx-xl-12 {
-    --bs-gutter-x: 12rem;
+    --bs-gutter-x: 16.75rem;
   }
   .g-xl-12,
   .gy-xl-12 {
-    --bs-gutter-y: 12rem;
+    --bs-gutter-y: 16.75rem;
   }
   .g-xl-13,
   .gx-xl-13 {
@@ -2390,11 +2390,11 @@ progress {
   }
   .g-xxl-12,
   .gx-xxl-12 {
-    --bs-gutter-x: 12rem;
+    --bs-gutter-x: 16.75rem;
   }
   .g-xxl-12,
   .gy-xxl-12 {
-    --bs-gutter-y: 12rem;
+    --bs-gutter-y: 16.75rem;
   }
   .g-xxl-13,
   .gx-xxl-13 {
@@ -8325,7 +8325,7 @@ fieldset:disabled .btn {
 }
 
 .gap-12 {
-  gap: 12rem !important;
+  gap: 16.75rem !important;
 }
 
 .gap-13 {
@@ -8554,7 +8554,7 @@ fieldset:disabled .btn {
 }
 
 .m-12 {
-  margin: 12rem !important;
+  margin: 16.75rem !important;
 }
 
 .m-13 {
@@ -8626,8 +8626,8 @@ fieldset:disabled .btn {
 }
 
 .mx-12 {
-  margin-right: 12rem !important;
-  margin-left: 12rem !important;
+  margin-right: 16.75rem !important;
+  margin-left: 16.75rem !important;
 }
 
 .mx-13 {
@@ -8701,8 +8701,8 @@ fieldset:disabled .btn {
 }
 
 .my-12 {
-  margin-top: 12rem !important;
-  margin-bottom: 12rem !important;
+  margin-top: 16.75rem !important;
+  margin-bottom: 16.75rem !important;
 }
 
 .my-13 {
@@ -8764,7 +8764,7 @@ fieldset:disabled .btn {
 }
 
 .mt-12 {
-  margin-top: 12rem !important;
+  margin-top: 16.75rem !important;
 }
 
 .mt-13 {
@@ -8824,7 +8824,7 @@ fieldset:disabled .btn {
 }
 
 .me-12 {
-  margin-right: 12rem !important;
+  margin-right: 16.75rem !important;
 }
 
 .me-13 {
@@ -8884,7 +8884,7 @@ fieldset:disabled .btn {
 }
 
 .mb-12 {
-  margin-bottom: 12rem !important;
+  margin-bottom: 16.75rem !important;
 }
 
 .mb-13 {
@@ -8944,7 +8944,7 @@ fieldset:disabled .btn {
 }
 
 .ms-12 {
-  margin-left: 12rem !important;
+  margin-left: 16.75rem !important;
 }
 
 .ms-13 {
@@ -9004,7 +9004,7 @@ fieldset:disabled .btn {
 }
 
 .p-12 {
-  padding: 12rem !important;
+  padding: 16.75rem !important;
 }
 
 .p-13 {
@@ -9072,8 +9072,8 @@ fieldset:disabled .btn {
 }
 
 .px-12 {
-  padding-right: 12rem !important;
-  padding-left: 12rem !important;
+  padding-right: 16.75rem !important;
+  padding-left: 16.75rem !important;
 }
 
 .px-13 {
@@ -9142,8 +9142,8 @@ fieldset:disabled .btn {
 }
 
 .py-12 {
-  padding-top: 12rem !important;
-  padding-bottom: 12rem !important;
+  padding-top: 16.75rem !important;
+  padding-bottom: 16.75rem !important;
 }
 
 .py-13 {
@@ -9200,7 +9200,7 @@ fieldset:disabled .btn {
 }
 
 .pt-12 {
-  padding-top: 12rem !important;
+  padding-top: 16.75rem !important;
 }
 
 .pt-13 {
@@ -9256,7 +9256,7 @@ fieldset:disabled .btn {
 }
 
 .pe-12 {
-  padding-right: 12rem !important;
+  padding-right: 16.75rem !important;
 }
 
 .pe-13 {
@@ -9312,7 +9312,7 @@ fieldset:disabled .btn {
 }
 
 .pb-12 {
-  padding-bottom: 12rem !important;
+  padding-bottom: 16.75rem !important;
 }
 
 .pb-13 {
@@ -9368,7 +9368,7 @@ fieldset:disabled .btn {
 }
 
 .ps-12 {
-  padding-left: 12rem !important;
+  padding-left: 16.75rem !important;
 }
 
 .ps-13 {
@@ -9835,7 +9835,7 @@ fieldset:disabled .btn {
     gap: 5.5rem !important;
   }
   .gap-sm-12 {
-    gap: 12rem !important;
+    gap: 16.75rem !important;
   }
   .gap-sm-13 {
     gap: 8rem !important;
@@ -10019,7 +10019,7 @@ fieldset:disabled .btn {
     margin: 5.5rem !important;
   }
   .m-sm-12 {
-    margin: 12rem !important;
+    margin: 16.75rem !important;
   }
   .m-sm-13 {
     margin: 8rem !important;
@@ -10076,8 +10076,8 @@ fieldset:disabled .btn {
     margin-left: 5.5rem !important;
   }
   .mx-sm-12 {
-    margin-right: 12rem !important;
-    margin-left: 12rem !important;
+    margin-right: 16.75rem !important;
+    margin-left: 16.75rem !important;
   }
   .mx-sm-13 {
     margin-right: 8rem !important;
@@ -10136,8 +10136,8 @@ fieldset:disabled .btn {
     margin-bottom: 5.5rem !important;
   }
   .my-sm-12 {
-    margin-top: 12rem !important;
-    margin-bottom: 12rem !important;
+    margin-top: 16.75rem !important;
+    margin-bottom: 16.75rem !important;
   }
   .my-sm-13 {
     margin-top: 8rem !important;
@@ -10184,7 +10184,7 @@ fieldset:disabled .btn {
     margin-top: 5.5rem !important;
   }
   .mt-sm-12 {
-    margin-top: 12rem !important;
+    margin-top: 16.75rem !important;
   }
   .mt-sm-13 {
     margin-top: 8rem !important;
@@ -10229,7 +10229,7 @@ fieldset:disabled .btn {
     margin-right: 5.5rem !important;
   }
   .me-sm-12 {
-    margin-right: 12rem !important;
+    margin-right: 16.75rem !important;
   }
   .me-sm-13 {
     margin-right: 8rem !important;
@@ -10274,7 +10274,7 @@ fieldset:disabled .btn {
     margin-bottom: 5.5rem !important;
   }
   .mb-sm-12 {
-    margin-bottom: 12rem !important;
+    margin-bottom: 16.75rem !important;
   }
   .mb-sm-13 {
     margin-bottom: 8rem !important;
@@ -10319,7 +10319,7 @@ fieldset:disabled .btn {
     margin-left: 5.5rem !important;
   }
   .ms-sm-12 {
-    margin-left: 12rem !important;
+    margin-left: 16.75rem !important;
   }
   .ms-sm-13 {
     margin-left: 8rem !important;
@@ -10364,7 +10364,7 @@ fieldset:disabled .btn {
     padding: 5.5rem !important;
   }
   .p-sm-12 {
-    padding: 12rem !important;
+    padding: 16.75rem !important;
   }
   .p-sm-13 {
     padding: 8rem !important;
@@ -10418,8 +10418,8 @@ fieldset:disabled .btn {
     padding-left: 5.5rem !important;
   }
   .px-sm-12 {
-    padding-right: 12rem !important;
-    padding-left: 12rem !important;
+    padding-right: 16.75rem !important;
+    padding-left: 16.75rem !important;
   }
   .px-sm-13 {
     padding-right: 8rem !important;
@@ -10474,8 +10474,8 @@ fieldset:disabled .btn {
     padding-bottom: 5.5rem !important;
   }
   .py-sm-12 {
-    padding-top: 12rem !important;
-    padding-bottom: 12rem !important;
+    padding-top: 16.75rem !important;
+    padding-bottom: 16.75rem !important;
   }
   .py-sm-13 {
     padding-top: 8rem !important;
@@ -10518,7 +10518,7 @@ fieldset:disabled .btn {
     padding-top: 5.5rem !important;
   }
   .pt-sm-12 {
-    padding-top: 12rem !important;
+    padding-top: 16.75rem !important;
   }
   .pt-sm-13 {
     padding-top: 8rem !important;
@@ -10560,7 +10560,7 @@ fieldset:disabled .btn {
     padding-right: 5.5rem !important;
   }
   .pe-sm-12 {
-    padding-right: 12rem !important;
+    padding-right: 16.75rem !important;
   }
   .pe-sm-13 {
     padding-right: 8rem !important;
@@ -10602,7 +10602,7 @@ fieldset:disabled .btn {
     padding-bottom: 5.5rem !important;
   }
   .pb-sm-12 {
-    padding-bottom: 12rem !important;
+    padding-bottom: 16.75rem !important;
   }
   .pb-sm-13 {
     padding-bottom: 8rem !important;
@@ -10644,7 +10644,7 @@ fieldset:disabled .btn {
     padding-left: 5.5rem !important;
   }
   .ps-sm-12 {
-    padding-left: 12rem !important;
+    padding-left: 16.75rem !important;
   }
   .ps-sm-13 {
     padding-left: 8rem !important;
@@ -10818,7 +10818,7 @@ fieldset:disabled .btn {
     gap: 5.5rem !important;
   }
   .gap-md-12 {
-    gap: 12rem !important;
+    gap: 16.75rem !important;
   }
   .gap-md-13 {
     gap: 8rem !important;
@@ -11002,7 +11002,7 @@ fieldset:disabled .btn {
     margin: 5.5rem !important;
   }
   .m-md-12 {
-    margin: 12rem !important;
+    margin: 16.75rem !important;
   }
   .m-md-13 {
     margin: 8rem !important;
@@ -11059,8 +11059,8 @@ fieldset:disabled .btn {
     margin-left: 5.5rem !important;
   }
   .mx-md-12 {
-    margin-right: 12rem !important;
-    margin-left: 12rem !important;
+    margin-right: 16.75rem !important;
+    margin-left: 16.75rem !important;
   }
   .mx-md-13 {
     margin-right: 8rem !important;
@@ -11119,8 +11119,8 @@ fieldset:disabled .btn {
     margin-bottom: 5.5rem !important;
   }
   .my-md-12 {
-    margin-top: 12rem !important;
-    margin-bottom: 12rem !important;
+    margin-top: 16.75rem !important;
+    margin-bottom: 16.75rem !important;
   }
   .my-md-13 {
     margin-top: 8rem !important;
@@ -11167,7 +11167,7 @@ fieldset:disabled .btn {
     margin-top: 5.5rem !important;
   }
   .mt-md-12 {
-    margin-top: 12rem !important;
+    margin-top: 16.75rem !important;
   }
   .mt-md-13 {
     margin-top: 8rem !important;
@@ -11212,7 +11212,7 @@ fieldset:disabled .btn {
     margin-right: 5.5rem !important;
   }
   .me-md-12 {
-    margin-right: 12rem !important;
+    margin-right: 16.75rem !important;
   }
   .me-md-13 {
     margin-right: 8rem !important;
@@ -11257,7 +11257,7 @@ fieldset:disabled .btn {
     margin-bottom: 5.5rem !important;
   }
   .mb-md-12 {
-    margin-bottom: 12rem !important;
+    margin-bottom: 16.75rem !important;
   }
   .mb-md-13 {
     margin-bottom: 8rem !important;
@@ -11302,7 +11302,7 @@ fieldset:disabled .btn {
     margin-left: 5.5rem !important;
   }
   .ms-md-12 {
-    margin-left: 12rem !important;
+    margin-left: 16.75rem !important;
   }
   .ms-md-13 {
     margin-left: 8rem !important;
@@ -11347,7 +11347,7 @@ fieldset:disabled .btn {
     padding: 5.5rem !important;
   }
   .p-md-12 {
-    padding: 12rem !important;
+    padding: 16.75rem !important;
   }
   .p-md-13 {
     padding: 8rem !important;
@@ -11401,8 +11401,8 @@ fieldset:disabled .btn {
     padding-left: 5.5rem !important;
   }
   .px-md-12 {
-    padding-right: 12rem !important;
-    padding-left: 12rem !important;
+    padding-right: 16.75rem !important;
+    padding-left: 16.75rem !important;
   }
   .px-md-13 {
     padding-right: 8rem !important;
@@ -11457,8 +11457,8 @@ fieldset:disabled .btn {
     padding-bottom: 5.5rem !important;
   }
   .py-md-12 {
-    padding-top: 12rem !important;
-    padding-bottom: 12rem !important;
+    padding-top: 16.75rem !important;
+    padding-bottom: 16.75rem !important;
   }
   .py-md-13 {
     padding-top: 8rem !important;
@@ -11501,7 +11501,7 @@ fieldset:disabled .btn {
     padding-top: 5.5rem !important;
   }
   .pt-md-12 {
-    padding-top: 12rem !important;
+    padding-top: 16.75rem !important;
   }
   .pt-md-13 {
     padding-top: 8rem !important;
@@ -11543,7 +11543,7 @@ fieldset:disabled .btn {
     padding-right: 5.5rem !important;
   }
   .pe-md-12 {
-    padding-right: 12rem !important;
+    padding-right: 16.75rem !important;
   }
   .pe-md-13 {
     padding-right: 8rem !important;
@@ -11585,7 +11585,7 @@ fieldset:disabled .btn {
     padding-bottom: 5.5rem !important;
   }
   .pb-md-12 {
-    padding-bottom: 12rem !important;
+    padding-bottom: 16.75rem !important;
   }
   .pb-md-13 {
     padding-bottom: 8rem !important;
@@ -11627,7 +11627,7 @@ fieldset:disabled .btn {
     padding-left: 5.5rem !important;
   }
   .ps-md-12 {
-    padding-left: 12rem !important;
+    padding-left: 16.75rem !important;
   }
   .ps-md-13 {
     padding-left: 8rem !important;
@@ -11801,7 +11801,7 @@ fieldset:disabled .btn {
     gap: 5.5rem !important;
   }
   .gap-lg-12 {
-    gap: 12rem !important;
+    gap: 16.75rem !important;
   }
   .gap-lg-13 {
     gap: 8rem !important;
@@ -11985,7 +11985,7 @@ fieldset:disabled .btn {
     margin: 5.5rem !important;
   }
   .m-lg-12 {
-    margin: 12rem !important;
+    margin: 16.75rem !important;
   }
   .m-lg-13 {
     margin: 8rem !important;
@@ -12042,8 +12042,8 @@ fieldset:disabled .btn {
     margin-left: 5.5rem !important;
   }
   .mx-lg-12 {
-    margin-right: 12rem !important;
-    margin-left: 12rem !important;
+    margin-right: 16.75rem !important;
+    margin-left: 16.75rem !important;
   }
   .mx-lg-13 {
     margin-right: 8rem !important;
@@ -12102,8 +12102,8 @@ fieldset:disabled .btn {
     margin-bottom: 5.5rem !important;
   }
   .my-lg-12 {
-    margin-top: 12rem !important;
-    margin-bottom: 12rem !important;
+    margin-top: 16.75rem !important;
+    margin-bottom: 16.75rem !important;
   }
   .my-lg-13 {
     margin-top: 8rem !important;
@@ -12150,7 +12150,7 @@ fieldset:disabled .btn {
     margin-top: 5.5rem !important;
   }
   .mt-lg-12 {
-    margin-top: 12rem !important;
+    margin-top: 16.75rem !important;
   }
   .mt-lg-13 {
     margin-top: 8rem !important;
@@ -12195,7 +12195,7 @@ fieldset:disabled .btn {
     margin-right: 5.5rem !important;
   }
   .me-lg-12 {
-    margin-right: 12rem !important;
+    margin-right: 16.75rem !important;
   }
   .me-lg-13 {
     margin-right: 8rem !important;
@@ -12240,7 +12240,7 @@ fieldset:disabled .btn {
     margin-bottom: 5.5rem !important;
   }
   .mb-lg-12 {
-    margin-bottom: 12rem !important;
+    margin-bottom: 16.75rem !important;
   }
   .mb-lg-13 {
     margin-bottom: 8rem !important;
@@ -12285,7 +12285,7 @@ fieldset:disabled .btn {
     margin-left: 5.5rem !important;
   }
   .ms-lg-12 {
-    margin-left: 12rem !important;
+    margin-left: 16.75rem !important;
   }
   .ms-lg-13 {
     margin-left: 8rem !important;
@@ -12330,7 +12330,7 @@ fieldset:disabled .btn {
     padding: 5.5rem !important;
   }
   .p-lg-12 {
-    padding: 12rem !important;
+    padding: 16.75rem !important;
   }
   .p-lg-13 {
     padding: 8rem !important;
@@ -12384,8 +12384,8 @@ fieldset:disabled .btn {
     padding-left: 5.5rem !important;
   }
   .px-lg-12 {
-    padding-right: 12rem !important;
-    padding-left: 12rem !important;
+    padding-right: 16.75rem !important;
+    padding-left: 16.75rem !important;
   }
   .px-lg-13 {
     padding-right: 8rem !important;
@@ -12440,8 +12440,8 @@ fieldset:disabled .btn {
     padding-bottom: 5.5rem !important;
   }
   .py-lg-12 {
-    padding-top: 12rem !important;
-    padding-bottom: 12rem !important;
+    padding-top: 16.75rem !important;
+    padding-bottom: 16.75rem !important;
   }
   .py-lg-13 {
     padding-top: 8rem !important;
@@ -12484,7 +12484,7 @@ fieldset:disabled .btn {
     padding-top: 5.5rem !important;
   }
   .pt-lg-12 {
-    padding-top: 12rem !important;
+    padding-top: 16.75rem !important;
   }
   .pt-lg-13 {
     padding-top: 8rem !important;
@@ -12526,7 +12526,7 @@ fieldset:disabled .btn {
     padding-right: 5.5rem !important;
   }
   .pe-lg-12 {
-    padding-right: 12rem !important;
+    padding-right: 16.75rem !important;
   }
   .pe-lg-13 {
     padding-right: 8rem !important;
@@ -12568,7 +12568,7 @@ fieldset:disabled .btn {
     padding-bottom: 5.5rem !important;
   }
   .pb-lg-12 {
-    padding-bottom: 12rem !important;
+    padding-bottom: 16.75rem !important;
   }
   .pb-lg-13 {
     padding-bottom: 8rem !important;
@@ -12610,7 +12610,7 @@ fieldset:disabled .btn {
     padding-left: 5.5rem !important;
   }
   .ps-lg-12 {
-    padding-left: 12rem !important;
+    padding-left: 16.75rem !important;
   }
   .ps-lg-13 {
     padding-left: 8rem !important;
@@ -12784,7 +12784,7 @@ fieldset:disabled .btn {
     gap: 5.5rem !important;
   }
   .gap-xl-12 {
-    gap: 12rem !important;
+    gap: 16.75rem !important;
   }
   .gap-xl-13 {
     gap: 8rem !important;
@@ -12968,7 +12968,7 @@ fieldset:disabled .btn {
     margin: 5.5rem !important;
   }
   .m-xl-12 {
-    margin: 12rem !important;
+    margin: 16.75rem !important;
   }
   .m-xl-13 {
     margin: 8rem !important;
@@ -13025,8 +13025,8 @@ fieldset:disabled .btn {
     margin-left: 5.5rem !important;
   }
   .mx-xl-12 {
-    margin-right: 12rem !important;
-    margin-left: 12rem !important;
+    margin-right: 16.75rem !important;
+    margin-left: 16.75rem !important;
   }
   .mx-xl-13 {
     margin-right: 8rem !important;
@@ -13085,8 +13085,8 @@ fieldset:disabled .btn {
     margin-bottom: 5.5rem !important;
   }
   .my-xl-12 {
-    margin-top: 12rem !important;
-    margin-bottom: 12rem !important;
+    margin-top: 16.75rem !important;
+    margin-bottom: 16.75rem !important;
   }
   .my-xl-13 {
     margin-top: 8rem !important;
@@ -13133,7 +13133,7 @@ fieldset:disabled .btn {
     margin-top: 5.5rem !important;
   }
   .mt-xl-12 {
-    margin-top: 12rem !important;
+    margin-top: 16.75rem !important;
   }
   .mt-xl-13 {
     margin-top: 8rem !important;
@@ -13178,7 +13178,7 @@ fieldset:disabled .btn {
     margin-right: 5.5rem !important;
   }
   .me-xl-12 {
-    margin-right: 12rem !important;
+    margin-right: 16.75rem !important;
   }
   .me-xl-13 {
     margin-right: 8rem !important;
@@ -13223,7 +13223,7 @@ fieldset:disabled .btn {
     margin-bottom: 5.5rem !important;
   }
   .mb-xl-12 {
-    margin-bottom: 12rem !important;
+    margin-bottom: 16.75rem !important;
   }
   .mb-xl-13 {
     margin-bottom: 8rem !important;
@@ -13268,7 +13268,7 @@ fieldset:disabled .btn {
     margin-left: 5.5rem !important;
   }
   .ms-xl-12 {
-    margin-left: 12rem !important;
+    margin-left: 16.75rem !important;
   }
   .ms-xl-13 {
     margin-left: 8rem !important;
@@ -13313,7 +13313,7 @@ fieldset:disabled .btn {
     padding: 5.5rem !important;
   }
   .p-xl-12 {
-    padding: 12rem !important;
+    padding: 16.75rem !important;
   }
   .p-xl-13 {
     padding: 8rem !important;
@@ -13367,8 +13367,8 @@ fieldset:disabled .btn {
     padding-left: 5.5rem !important;
   }
   .px-xl-12 {
-    padding-right: 12rem !important;
-    padding-left: 12rem !important;
+    padding-right: 16.75rem !important;
+    padding-left: 16.75rem !important;
   }
   .px-xl-13 {
     padding-right: 8rem !important;
@@ -13423,8 +13423,8 @@ fieldset:disabled .btn {
     padding-bottom: 5.5rem !important;
   }
   .py-xl-12 {
-    padding-top: 12rem !important;
-    padding-bottom: 12rem !important;
+    padding-top: 16.75rem !important;
+    padding-bottom: 16.75rem !important;
   }
   .py-xl-13 {
     padding-top: 8rem !important;
@@ -13467,7 +13467,7 @@ fieldset:disabled .btn {
     padding-top: 5.5rem !important;
   }
   .pt-xl-12 {
-    padding-top: 12rem !important;
+    padding-top: 16.75rem !important;
   }
   .pt-xl-13 {
     padding-top: 8rem !important;
@@ -13509,7 +13509,7 @@ fieldset:disabled .btn {
     padding-right: 5.5rem !important;
   }
   .pe-xl-12 {
-    padding-right: 12rem !important;
+    padding-right: 16.75rem !important;
   }
   .pe-xl-13 {
     padding-right: 8rem !important;
@@ -13551,7 +13551,7 @@ fieldset:disabled .btn {
     padding-bottom: 5.5rem !important;
   }
   .pb-xl-12 {
-    padding-bottom: 12rem !important;
+    padding-bottom: 16.75rem !important;
   }
   .pb-xl-13 {
     padding-bottom: 8rem !important;
@@ -13593,7 +13593,7 @@ fieldset:disabled .btn {
     padding-left: 5.5rem !important;
   }
   .ps-xl-12 {
-    padding-left: 12rem !important;
+    padding-left: 16.75rem !important;
   }
   .ps-xl-13 {
     padding-left: 8rem !important;
@@ -13767,7 +13767,7 @@ fieldset:disabled .btn {
     gap: 5.5rem !important;
   }
   .gap-xxl-12 {
-    gap: 12rem !important;
+    gap: 16.75rem !important;
   }
   .gap-xxl-13 {
     gap: 8rem !important;
@@ -13951,7 +13951,7 @@ fieldset:disabled .btn {
     margin: 5.5rem !important;
   }
   .m-xxl-12 {
-    margin: 12rem !important;
+    margin: 16.75rem !important;
   }
   .m-xxl-13 {
     margin: 8rem !important;
@@ -14008,8 +14008,8 @@ fieldset:disabled .btn {
     margin-left: 5.5rem !important;
   }
   .mx-xxl-12 {
-    margin-right: 12rem !important;
-    margin-left: 12rem !important;
+    margin-right: 16.75rem !important;
+    margin-left: 16.75rem !important;
   }
   .mx-xxl-13 {
     margin-right: 8rem !important;
@@ -14068,8 +14068,8 @@ fieldset:disabled .btn {
     margin-bottom: 5.5rem !important;
   }
   .my-xxl-12 {
-    margin-top: 12rem !important;
-    margin-bottom: 12rem !important;
+    margin-top: 16.75rem !important;
+    margin-bottom: 16.75rem !important;
   }
   .my-xxl-13 {
     margin-top: 8rem !important;
@@ -14116,7 +14116,7 @@ fieldset:disabled .btn {
     margin-top: 5.5rem !important;
   }
   .mt-xxl-12 {
-    margin-top: 12rem !important;
+    margin-top: 16.75rem !important;
   }
   .mt-xxl-13 {
     margin-top: 8rem !important;
@@ -14161,7 +14161,7 @@ fieldset:disabled .btn {
     margin-right: 5.5rem !important;
   }
   .me-xxl-12 {
-    margin-right: 12rem !important;
+    margin-right: 16.75rem !important;
   }
   .me-xxl-13 {
     margin-right: 8rem !important;
@@ -14206,7 +14206,7 @@ fieldset:disabled .btn {
     margin-bottom: 5.5rem !important;
   }
   .mb-xxl-12 {
-    margin-bottom: 12rem !important;
+    margin-bottom: 16.75rem !important;
   }
   .mb-xxl-13 {
     margin-bottom: 8rem !important;
@@ -14251,7 +14251,7 @@ fieldset:disabled .btn {
     margin-left: 5.5rem !important;
   }
   .ms-xxl-12 {
-    margin-left: 12rem !important;
+    margin-left: 16.75rem !important;
   }
   .ms-xxl-13 {
     margin-left: 8rem !important;
@@ -14296,7 +14296,7 @@ fieldset:disabled .btn {
     padding: 5.5rem !important;
   }
   .p-xxl-12 {
-    padding: 12rem !important;
+    padding: 16.75rem !important;
   }
   .p-xxl-13 {
     padding: 8rem !important;
@@ -14350,8 +14350,8 @@ fieldset:disabled .btn {
     padding-left: 5.5rem !important;
   }
   .px-xxl-12 {
-    padding-right: 12rem !important;
-    padding-left: 12rem !important;
+    padding-right: 16.75rem !important;
+    padding-left: 16.75rem !important;
   }
   .px-xxl-13 {
     padding-right: 8rem !important;
@@ -14406,8 +14406,8 @@ fieldset:disabled .btn {
     padding-bottom: 5.5rem !important;
   }
   .py-xxl-12 {
-    padding-top: 12rem !important;
-    padding-bottom: 12rem !important;
+    padding-top: 16.75rem !important;
+    padding-bottom: 16.75rem !important;
   }
   .py-xxl-13 {
     padding-top: 8rem !important;
@@ -14450,7 +14450,7 @@ fieldset:disabled .btn {
     padding-top: 5.5rem !important;
   }
   .pt-xxl-12 {
-    padding-top: 12rem !important;
+    padding-top: 16.75rem !important;
   }
   .pt-xxl-13 {
     padding-top: 8rem !important;
@@ -14492,7 +14492,7 @@ fieldset:disabled .btn {
     padding-right: 5.5rem !important;
   }
   .pe-xxl-12 {
-    padding-right: 12rem !important;
+    padding-right: 16.75rem !important;
   }
   .pe-xxl-13 {
     padding-right: 8rem !important;
@@ -14534,7 +14534,7 @@ fieldset:disabled .btn {
     padding-bottom: 5.5rem !important;
   }
   .pb-xxl-12 {
-    padding-bottom: 12rem !important;
+    padding-bottom: 16.75rem !important;
   }
   .pb-xxl-13 {
     padding-bottom: 8rem !important;
@@ -14576,7 +14576,7 @@ fieldset:disabled .btn {
     padding-left: 5.5rem !important;
   }
   .ps-xxl-12 {
-    padding-left: 12rem !important;
+    padding-left: 16.75rem !important;
   }
   .ps-xxl-13 {
     padding-left: 8rem !important;
@@ -14921,6 +14921,21 @@ a {
   width: 100%;
 }
 
+#infoModalforgot {
+  max-width: 680px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+#closeforgot {
+  cursor: pointer;
+}
+
+.forgotbox {
+  max-width: 450px;
+  width: 100%;
+}
+
 .signUp {
   position: relative;
   -webkit-box-shadow: 0 4px 6px #B3193F;
@@ -15073,6 +15088,14 @@ a {
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+.user {
+  max-width: 200px;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  color: #49567e;
 }
 
 .checkBox {
@@ -15252,6 +15275,7 @@ a {
 .accordion-body {
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
+  background-color: #F9EECC;
 }
 
 .kanjigroup,
@@ -15391,6 +15415,34 @@ a {
   padding-left: 4px;
 }
 
+.part {
+  font-size: 24px;
+  border: 3px solid #1D2D51;
+  color: #1D2D51;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+}
+
+.part:hover {
+  border: 3px solid #B3193F;
+  background-color: #B3193F;
+  color: white;
+}
+
+.add {
+  border: 3px solid #1D2D51;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+}
+
+.add:hover {
+  border: 3px solid #B3193F;
+  background-color: #B3193F;
+  color: white;
+}
+
 .wordlist {
   padding: 0 12px;
   -webkit-columns: 4;
@@ -15523,6 +15575,8 @@ a {
   border-radius: 8px;
   padding: 0 8px;
   color: #B3193F;
+  max-width: 200px;
+  width: 100%;
 }
 
 .exampaper {
@@ -15541,6 +15595,7 @@ a {
   border-radius: 16px;
   max-width: 384px;
   width: 100%;
+  cursor: pointer;
 }
 
 @media (max-width: 1199.98px) {
@@ -15553,6 +15608,26 @@ a {
   .exampaper .answer .botan {
     max-width: 100%;
   }
+}
+
+.exampaper .answer .botan:active {
+  background-color: #F4DC99;
+}
+
+.exampaper .answer .botan:active .maku {
+  opacity: 1;
+}
+
+.exampaper .answer .botan:active .maru {
+  color: #79872F;
+}
+
+.exampaper .answer .botan:active .bazu {
+  color: #B3193F;
+}
+
+.exampaper .answer .botan a:hover {
+  color: #1D2D51;
 }
 
 .exampaper .answer .ichi {
@@ -15583,6 +15658,22 @@ a {
 
 .exampaper .answer .yonn {
   background-color: #F9EECC;
+}
+
+.exampaper .maku {
+  opacity: 0;
+}
+
+.exampaper .kotae {
+  opacity: 0;
+}
+
+.exampaper .okuru:active .maku {
+  opacity: 1;
+}
+
+.moikai:hover {
+  color: #1D2D51;
 }
 
 .q {
