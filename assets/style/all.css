@@ -14959,14 +14959,24 @@ a {
 .navMain .navListItem {
   -webkit-box-shadow: 0 0 6px rgba(229, 166, 0, 0.2);
           box-shadow: 0 0 6px rgba(229, 166, 0, 0.2);
+  border-right: 16px solid transparent;
+}
+
+@media (max-width: 1399.98px) {
+  .navMain .navListItem {
+    border-right: 0;
+  }
 }
 
 .navMain .navListItem:hover {
-  background-color: #E5A600;
+  border-right: 16px solid #B3193F;
 }
 
-.navMain .active {
-  background-color: #E5A600;
+@media (max-width: 1399.98px) {
+  .navMain .navListItem:hover {
+    border-right: 0;
+    background-color: #F4DC99;
+  }
 }
 
 .navMain .material-symbols-outlined {
@@ -14993,6 +15003,7 @@ a {
 
 .nav-tabs .active {
   background-color: #EFCA66 !important;
+  color: #fffdf0 !important;
 }
 
 .tab-content {
@@ -15641,7 +15652,7 @@ a {
 .vocabulary {
   border: 3px solid #1D2D51;
   border-radius: 8px;
-  padding: 0 8px;
+  padding: 4px 8px;
   color: #B3193F;
   max-width: 200px;
   width: 100%;
