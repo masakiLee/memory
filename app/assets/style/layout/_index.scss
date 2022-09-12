@@ -233,6 +233,10 @@ a {
     input[type="password"] {
       width: 100%;
       padding: 16px 32px 16px 98px;
+
+      @media (max-width:767.98px) {
+        padding: 16px 32px 16px 68px;
+      }
     }
   }
 
@@ -242,6 +246,10 @@ a {
     top: 50%;
     left: 34px;
     transform: translateY(-50%);
+
+    @media (max-width:767.98px) {
+      left: 24px;
+    }
   }
 
   input[type="submit"] {
@@ -265,8 +273,7 @@ a {
 }
 
 #infoModalforgot {
-  max-width: 680px;
-  width: 100%;
+  max-width: 520px;
   border-radius: 16px;
 }
 
@@ -274,7 +281,29 @@ a {
   cursor: pointer;
 }
 
+.forgotbox,
+.numberbox {
+  background: $secondary-300;
+  border: 0;
+  border-radius: 8px;
+}
+
 .forgotbox {
-  max-width: 450px;
-  width: 100%;
+  max-width: 312px;
+
+  @media (max-width:767.98px) {
+    max-width: 180px;
+  }
+}
+
+.numberbox {
+  max-width: 156px;
+
+  @media (max-width:991.98px) {
+    max-width: 151px;
+  }
+
+  @media (max-width:767.98px) {
+    max-width: 180px;
+  }
 }

@@ -54,16 +54,21 @@ engine: ejs
                             class="bg-third text-primary rounded-1 border-0 fs-2 passwordSignIn">
                     </label>
                     <small class="my-2 align-self-end"><a href="#" class="text-third forgot fs-4">忘記密碼</a></small>
-                    <dialog id="infoModalforgot" class="p-5 text-primary border-primary border border-5 modelone">
-                        <p class="fs-2 mb-2">請輸入電子郵件</p>
-                        <div class="d-flex">
-                            <input type="text" placeholder="Email"
-                                class="forgotbox fs-3 border-0 border-bottom border-secondary border-3">
+                    <dialog id="infoModalforgot"
+                        class="p-4 p-md-5 text-primary border-primary border border-5 modelone">
+                        <p class="fs-2 mb-4">請輸入電子郵件</p>
+                        <label for="" class="fs-4">E-mail：
+                            <input type="email" name="email" class="forgotbox fs-3 py-2 ps-2">
+                        </label>
+                        <div class="d-flex flex-column flex-md-row my-3">
+                            <label for="" class="fs-4 py-2">驗證碼：
+                                <input type="text" name="text" class="numberbox fs-3 py-2 ps-2">
+                            </label>
                             <button type="button"
-                                class="fs-5 ms-4 border-0 btn btn-primary btn-lg text-third px-3 forgotsend">發送驗證碼</button>
+                                class="fs-5 ms-0 ms-md-4 mt-3 mt-md-0 border-0 btn btn-primary btn-lg text-third px-3 forgotsend">發送驗證碼</button>
                         </div>
                         <div id="closeforgot"
-                            class="closebox p-2 bg-danger text-third ms-auto w-50 text-center fs-3 mt-3 rounded rounded-1">
+                            class="closebox p-2 bg-danger text-third ms-auto w-50 text-center fs-3 mt-4 rounded rounded-1">
                             確定
                         </div>
                     </dialog>
