@@ -14895,6 +14895,15 @@ a {
   padding: 16px 32px 16px 98px;
 }
 
+@media (max-width: 767.98px) {
+  .signInFormBox .emailBox input[type="email"],
+  .signInFormBox .emailBox input[type="password"],
+  .signInFormBox .passwordBox input[type="email"],
+  .signInFormBox .passwordBox input[type="password"] {
+    padding: 16px 32px 16px 68px;
+  }
+}
+
 .signInFormBox .person,
 .signInFormBox .key {
   position: absolute;
@@ -14903,6 +14912,13 @@ a {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+@media (max-width: 767.98px) {
+  .signInFormBox .person,
+  .signInFormBox .key {
+    left: 24px;
+  }
 }
 
 .signInFormBox input[type="submit"] {
@@ -14922,8 +14938,7 @@ a {
 }
 
 #infoModalforgot {
-  max-width: 680px;
-  width: 100%;
+  max-width: 520px;
   border-radius: 16px;
 }
 
@@ -14931,9 +14946,37 @@ a {
   cursor: pointer;
 }
 
+.forgotbox,
+.numberbox {
+  background: #F9EECC;
+  border: 0;
+  border-radius: 8px;
+}
+
 .forgotbox {
-  max-width: 450px;
-  width: 100%;
+  max-width: 312px;
+}
+
+@media (max-width: 767.98px) {
+  .forgotbox {
+    max-width: 180px;
+  }
+}
+
+.numberbox {
+  max-width: 156px;
+}
+
+@media (max-width: 991.98px) {
+  .numberbox {
+    max-width: 151px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .numberbox {
+    max-width: 180px;
+  }
 }
 
 .signUp {
