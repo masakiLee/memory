@@ -1,41 +1,45 @@
 .nav-tabs {
-    .nav-link {
-        border-top-left-radius: 16px;
-        border-top-right-radius: 16px;
-        border: 5px solid $danger;
-        background-color: $third;
-        text-align: center;
-        color: $gray-700;
+    border-color: $secondary-300;
+    border: 0;
 
-        &:hover {
-            border-color: $danger;
-            background-color: $danger;
-            color: $third;
-        }
+    .nav-link {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border: 0;
+        background-color: $secondary-300;
+        color: $primary;
     }
 
     .active {
-        border-color: $danger  !important;
-        background-color: $danger  !important;
-        color: $third  !important;
+        background-color: $secondary-700  !important;
+        // color: $danger  !important;
     }
 
 }
 
 .tab-content {
-    margin-top: -5px;
-    border: 5px solid $danger;
+    // margin-top: -1px;
+    // background-color: $secondary-700;
+    border: 5px solid $secondary-700;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    border-top-right-radius: 16px;
+    // border-top-right-radius: 16px;
 
     .tabTextBar {
         width: 6px;
         height: 48px;
-        background-color: $success;
+        background-color: $success-900;
         border-radius: 3px;
         display: inline-block;
         vertical-align: top;
+
+        @media (max-width:991.98px) {
+            height: 42px;
+        }
+
+        @media (max-width:767.98px) {
+            height: 24px;
+        }
     }
 }
 
@@ -113,6 +117,11 @@
 
 .checkBox {
     border-radius: 16px;
+    border: 5px solid $secondary;
+
+    @media (max-width:767.98px) {
+        border: 3px solid $secondary;
+    }
 
 
     .checkBar {
@@ -142,6 +151,11 @@
 .knowledge {
     border-radius: 16px;
     position: relative;
+    border: 5px solid $secondary;
+
+    @media (max-width:767.98px) {
+        border: 3px solid $secondary;
+    }
 
     .title {
         position: absolute;
@@ -155,9 +169,9 @@
     }
 
     .bean1 {
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
-        padding: 18px 0;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        padding: 16px 0;
     }
 
     .right {
@@ -190,5 +204,6 @@
         right: 0;
         border-top-right-radius: 12px;
         border-bottom-right-radius: 12px;
+        padding: 14px 10px;
     }
 }
