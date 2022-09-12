@@ -85,13 +85,13 @@
       
 <div class="col-12 col-xxl-10 favorite">
     <div
-        class="favoriteTitle pt-0 pt-md-4 pb-3 d-flex justify-content-between flex-wrap border-bottom border-success border-3">
+        class="favoriteTitle pt-2 pt-xxl-4 pb-2 pb-md-3 d-flex justify-content-between flex-wrap border-bottom border-success border-3">
         <nav aria-label="breadcrumb" class="text-secondary">
             <ol class="breadcrumb mb-0 pb-2 pb-md-0">
                 <li class="breadcrumb-item active" aria-current="page">收藏夾</li>
             </ol>
         </nav>
-        <div class="searchGroup d-flex align-items-center">
+        <!-- <div class="searchGroup d-flex align-items-center">
             <label for="search" class="search">
                 <input type="text" name="search" id="search" placeholder="請輸入要查的單字" class="searchText">
                 <botton class="btn bg-danger searchBtn py-1 px-3">
@@ -100,7 +100,7 @@
                     </span>
                 </botton>
             </label>
-        </div>
+        </div> -->
     </div>
     <div class="favoriteselect d-flex py-3">
         <p class="fs-md-2 pe-3 d-flex align-items-center">請選擇單字庫</p>
@@ -185,7 +185,7 @@
       delay: 0, // values from 0 to 3000, with step 50ms
       duration: 1000, // values from 0 to 3000, with step 50ms
       easing: 'ease', // default easing for AOS animations
-      once: false, // whether animation should happen only once - while scrolling down
+      once: true, // whether animation should happen only once - while scrolling down
       mirror: false, // whether elements should animate out while scrolling past them
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 

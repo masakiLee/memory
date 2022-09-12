@@ -84,27 +84,28 @@
       </div>
       
 <div class="col-xxl-7 order-xxl-1 order-2 pb-3 main">
-    <div class="daily">
-        <h2 class="fs-1 pt-5 pb-3 text-secondary">一日一句</h2>
+    <div class="daily pt-0 pt-xl-3">
+        <h2 class="fs-1 pt-3 pb-4 text-secondary">一日一句</h2>
         <nav>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <button class="nav-link active fs-2 py-2 py-md-2 px-4 px-md-9" id="nav-home-tab" data-bs-toggle="tab"
+                <button class="nav-link active fs-2 py-2 px-4 px-md-9" id="nav-home-tab" data-bs-toggle="tab"
                     data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
                     aria-selected="true">句子</button>
-                <button class="nav-link fs-2 py-2 py-md-2 px-4 px-md-9" id="nav-profile-tab" data-bs-toggle="tab"
+                <button class="nav-link fs-2 py-2 px-4 px-md-9" id="nav-profile-tab" data-bs-toggle="tab"
                     data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
                     aria-selected="false">中譯</button>
             </div>
         </nav>
-        <div class="tab-content bg-third text-primary py-4 ps-2 ps-md-6" id="nav-tabContent">
-            <div class="tab-pane fade show active px-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="tab-content text-primary py-4 py-md-4 ps-2 ps-md-6" id="nav-tabContent">
+            <div class="tab-pane fade show active px-2 px-md-3" id="nav-home" role="tabpanel"
+                aria-labelledby="nav-home-tab">
                 <i class="tabTextBar"></i>
-                <span class="tabText fs-2">「明日やろう」じゃなくて「今やろう」</span>
+                <span class="tabText fs-2 text-primary">「明日やろう」じゃなくて「今やろう」</span>
             </div>
             <div class="tab-pane fade text-primary px-3" id="nav-profile" role="tabpanel"
                 aria-labelledby="nav-profile-tab">
                 <i class="tabTextBar me-3"></i>
-                <span class="tabText fs-2">不是明天再做 是現在就行動</span>
+                <span class="tabText fs-2 text-primary">不是明天再做 是現在就行動</span>
             </div>
         </div>
     </div>
@@ -183,22 +184,25 @@
         </ul>
     </div>
 </div>
-<div class="col-xxl-3 order-xxl-2 order-1 pt-4 px-2 px-xxl-3 pb-2">
+<div class="col-xxl-3 order-xxl-2 order-1 pt-2 pt-md-4 px-2 px-xxl-3 pb-2">
     <div class="personal d-flex flex-xxl-column flex-lg-row">
         <div class="file d-flex justify-content-start justify-content-xxl-end align-items-md-center w-100">
             <div class="greet me-0 me-md-3 ms-0 ms-md-4 order-2 order-xxl-0 align-self-center">
-                <p class="fs-4 text-secondary d-none d-md-block text-end">こんにちは</p>
+                <p class="fs-4 text-secondary d-none d-md-block text-xxl-end">こんにちは</p>
                 <input type="text" value="Username"
                     class="user fs-2 text-start text-xxl-end ps-4 ps-md-0 border-0 text-primary"></input>
             </div>
-            <img src="./assets/images/photo.png" alt="photo" class="photo bg-success rounded-3 order-0 order-xxl-2">
+            <img src="./assets/images/photo.png" alt="photo"
+                class="photo bg-success rounded-3 order-0 order-xxl-2 d-none d-md-block">
+            <img src="./assets/images/photo1.svg" alt="photo"
+                class="photo bg-success rounded-3 order-0 order-xxl-2 d-block d-md-none">
         </div>
         <div class="check pt-0 pt-xxl-3 flex-shrink-0">
-            <div
-                class="checkBox border border-secondary border-5 px-2 px-md-3 d-flex justify-content-around align-items-center py-2">
+            <div class="checkBox px-2 px-md-3 d-flex justify-content-around align-items-center py-2">
                 <div class="icon">
                     <a href="#" id="clockOn">
-                        <img src="./assets/images/punck.svg" alt="打卡ICON">
+                        <img src="./assets/images/punck.svg" alt="打卡ICON" class="d-none d-md-block">
+                        <img src="./assets/images/punck1.svg" alt="打卡ICON" class="d-block d-md-none">
                         <p class="text-center text-primary pt-1 fs-4 d-none d-xxl-block">簽到</p>
                     </a>
                 </div>
@@ -225,7 +229,7 @@
         </div>
     </div>
     <div class="bean mt-3 mt-xxl-0">
-        <div class=" knowledge border border-5 border-secondary">
+        <div class="knowledge">
             <div class="title d-inline-flex d-md-flex">
                 <img src="./assets/images/bean.svg" alt="bran"
                     class="px-3 px-md-4 py-3 bg-secondary bean d-none d-md-block">
@@ -240,13 +244,14 @@
                 <p class="fs-3 text d-none d-md-block px-8 px-md-5 pb-0 pb-lg-5">
                     全日本的神社真的比便利商店還多?
                 </p>
-                <p class="fs-3 text1 d-block d-md-none px-10 px-md-5 pb-0 pb-lg-5">
+                <p class="fs-5 text1 d-block d-md-none px-10 px-md-5 pb-0 pb-lg-5">
                     全日本的神社真的比便利商店還多?
                 </p>
             </div>
             <div class="d-flex justify-content-end">
-                <a href="./Beanknowledge.html" class="answer p-3 bg-success text-third fs-3 d-none d-md-block">看答案</a>
-                <a href="./Beanknowledge.html" class="answer1 p-3 bg-success text-third fs-3 d-block d-md-none">答</a>
+                <a href="./Beanknowledge.html"
+                    class="answer bg-success text-third fs-3 d-none d-md-block px-4 py-3">看答案</a>
+                <a href="./Beanknowledge.html" class="answer1 bg-success text-third fs-3 d-block d-md-none">答</a>
             </div>
         </div>
     </div>
@@ -279,7 +284,7 @@
       delay: 0, // values from 0 to 3000, with step 50ms
       duration: 1000, // values from 0 to 3000, with step 50ms
       easing: 'ease', // default easing for AOS animations
-      once: false, // whether animation should happen only once - while scrolling down
+      once: true, // whether animation should happen only once - while scrolling down
       mirror: false, // whether elements should animate out while scrolling past them
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 

@@ -86,14 +86,14 @@
 
 <div class="col-12 col-xxl-10 vocabularys">
     <div
-        class="vocabularysTitle pt-0 pt-md-4 pb-3 d-flex justify-content-between flex-wrap border-bottom border-success border-3">
+        class="vocabularysTitle pt-2 pt-xxl-4 pb-2 pb-md-3 d-flex justify-content-between flex-wrap border-bottom border-success border-3">
         <nav aria-label="breadcrumb" class="text-secondary">
             <ol class="breadcrumb mb-0 pb-2 pb-md-0">
                 <li class="breadcrumb-item"><a href="./vocabulary.html">單字庫</a></li>
                 <li class="breadcrumb-item active" aria-current="page">日文檢定</li>
             </ol>
         </nav>
-        <div class="searchGroup d-flex align-items-center">
+        <!-- <div class="searchGroup d-flex align-items-center">
             <label for="search" class="search">
                 <input type="text" name="search" id="search" placeholder="請輸入要查的單字" class="searchText">
                 <botton class="btn bg-danger searchBtn py-1 px-3">
@@ -102,7 +102,7 @@
                     </span>
                 </botton>
             </label>
-        </div>
+        </div> -->
     </div>
     <div class="vocabularysBody pt-6 pb-3">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-5 mx-3">
@@ -186,7 +186,7 @@
       delay: 0, // values from 0 to 3000, with step 50ms
       duration: 1000, // values from 0 to 3000, with step 50ms
       easing: 'ease', // default easing for AOS animations
-      once: false, // whether animation should happen only once - while scrolling down
+      once: true, // whether animation should happen only once - while scrolling down
       mirror: false, // whether elements should animate out while scrolling past them
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 

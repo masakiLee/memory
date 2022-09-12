@@ -14978,42 +14978,48 @@ a {
   outline: none;
 }
 
-.nav-tabs .nav-link {
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-  border: 5px solid #B3193F;
-  background-color: #fffdf0;
-  text-align: center;
-  color: #495057;
+.nav-tabs {
+  border-color: #F9EECC;
+  border: 0;
 }
 
-.nav-tabs .nav-link:hover {
-  border-color: #B3193F;
-  background-color: #B3193F;
-  color: #fffdf0;
+.nav-tabs .nav-link {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 0;
+  background-color: #F9EECC;
+  color: #1D2D51;
 }
 
 .nav-tabs .active {
-  border-color: #B3193F !important;
-  background-color: #B3193F !important;
-  color: #fffdf0 !important;
+  background-color: #EFCA66 !important;
 }
 
 .tab-content {
-  margin-top: -5px;
-  border: 5px solid #B3193F;
+  border: 5px solid #EFCA66;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
-  border-top-right-radius: 16px;
 }
 
 .tab-content .tabTextBar {
   width: 6px;
   height: 48px;
-  background-color: #79872F;
+  background-color: #949F59;
   border-radius: 3px;
   display: inline-block;
   vertical-align: top;
+}
+
+@media (max-width: 991.98px) {
+  .tab-content .tabTextBar {
+    height: 42px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .tab-content .tabTextBar {
+    height: 24px;
+  }
 }
 
 .recommendBox {
@@ -15100,6 +15106,13 @@ a {
 
 .checkBox {
   border-radius: 16px;
+  border: 5px solid #E5A600;
+}
+
+@media (max-width: 767.98px) {
+  .checkBox {
+    border: 3px solid #E5A600;
+  }
 }
 
 .checkBox .checkBar {
@@ -15126,6 +15139,13 @@ a {
 .knowledge {
   border-radius: 16px;
   position: relative;
+  border: 5px solid #E5A600;
+}
+
+@media (max-width: 767.98px) {
+  .knowledge {
+    border: 3px solid #E5A600;
+  }
 }
 
 .knowledge .title {
@@ -15140,9 +15160,9 @@ a {
 }
 
 .knowledge .bean1 {
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  padding: 18px 0;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  padding: 16px 0;
 }
 
 .knowledge .right {
@@ -15176,6 +15196,7 @@ a {
   right: 0;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
+  padding: 14px 10px;
 }
 
 .breadcrumb-item a {
@@ -15219,8 +15240,15 @@ a {
 
 .vocabularys .plus {
   position: absolute;
-  bottom: 12px;
+  bottom: 40px;
   right: 42px;
+}
+
+@media (max-width: 991.98px) {
+  .vocabularys .plus {
+    position: fixed;
+    bottom: 20px;
+  }
 }
 
 .vocabularys .plusIcon {
@@ -15242,7 +15270,6 @@ a {
           box-shadow: 0 2px 6px #1D2D51;
   border-radius: 16px;
   max-width: 380px;
-  width: 100%;
 }
 
 .vocabularys .modelone .closebox,
@@ -15345,7 +15372,22 @@ a {
 .explaingroup .hirakara,
 .sentencegroup .kanji,
 .sentencegroup .hirakara {
-  max-width: 220px;
+  width: 220px;
+}
+
+@media (max-width: 991.98px) {
+  .kanjigroup .kanji,
+  .kanjigroup .hirakara,
+  .hirakaragroup .kanji,
+  .hirakaragroup .hirakara,
+  .accentgroup .kanji,
+  .accentgroup .hirakara,
+  .explaingroup .kanji,
+  .explaingroup .hirakara,
+  .sentencegroup .kanji,
+  .sentencegroup .hirakara {
+    width: 100%;
+  }
 }
 
 .kanjigroup .accent,
@@ -15353,7 +15395,17 @@ a {
 .accentgroup .accent,
 .explaingroup .accent,
 .sentencegroup .accent {
-  max-width: 106px;
+  width: 106px;
+}
+
+@media (max-width: 991.98px) {
+  .kanjigroup .accent,
+  .hirakaragroup .accent,
+  .accentgroup .accent,
+  .explaingroup .accent,
+  .sentencegroup .accent {
+    width: 100%;
+  }
 }
 
 .kanjigroup .explain,
@@ -15366,7 +15418,22 @@ a {
 .explaingroup .sentence,
 .sentencegroup .explain,
 .sentencegroup .sentence {
-  width: 290px;
+  width: 280px;
+}
+
+@media (max-width: 991.98px) {
+  .kanjigroup .explain,
+  .kanjigroup .sentence,
+  .hirakaragroup .explain,
+  .hirakaragroup .sentence,
+  .accentgroup .explain,
+  .accentgroup .sentence,
+  .explaingroup .explain,
+  .explaingroup .sentence,
+  .sentencegroup .explain,
+  .sentencegroup .sentence {
+    width: 100%;
+  }
 }
 
 .kanjigroup .underline,
@@ -15448,9 +15515,9 @@ a {
   -webkit-columns: 4;
      -moz-columns: 4;
           columns: 4;
-  -webkit-column-gap: 12px;
-     -moz-column-gap: 12px;
-          column-gap: 12px;
+  -webkit-column-gap: 24px;
+     -moz-column-gap: 24px;
+          column-gap: 24px;
 }
 
 @media (max-width: 1199.98px) {
@@ -15458,9 +15525,9 @@ a {
     -webkit-columns: 3;
        -moz-columns: 3;
             columns: 3;
-    -webkit-column-gap: 12px;
-       -moz-column-gap: 12px;
-            column-gap: 12px;
+    -webkit-column-gap: 24px;
+       -moz-column-gap: 24px;
+            column-gap: 24px;
   }
 }
 
