@@ -7,15 +7,22 @@
 
     .navListItem {
         box-shadow: 0 0 6px rgba(229, 166, 0, .2);
+        border-right: 16px solid transparent;
+
+        @media (max-width:1399.98px) {
+            border-right: 0;
+        }
 
         &:hover {
-            background-color: $secondary;
+            border-right: 16px solid $danger;
+
+            @media (max-width:1399.98px) {
+                border-right: 0;
+                background-color: $secondary-500;
+            }
         }
     }
 
-    .active {
-        background-color: $secondary;
-    }
 
     .material-symbols-outlined {
         font-size: 48px;
