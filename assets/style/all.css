@@ -14868,8 +14868,8 @@ a {
   position: absolute;
   width: 65px;
   height: 67px;
-  top: 21px;
-  left: 0;
+  top: 20px;
+  left: 2px;
 }
 
 .signInFormBox {
@@ -14925,11 +14925,23 @@ a {
   width: 100%;
 }
 
-.signInFormBox .social .google,
-.signInFormBox .social .facebook {
-  background-size: contain;
-  width: 50px;
-  height: 50px;
+.signInFormBox .social .google {
+  font-size: 62px;
+  color: #fffdf0;
+}
+
+@media (max-width: 767.98px) {
+  .signInFormBox .social .google {
+    font-size: 48px;
+  }
+}
+
+.signInFormBox .social .google:hover {
+  color: #B3193F;
+}
+
+.signInFormBox .social .google1:hover {
+  color: #1D2D51;
 }
 
 .signInFormBox .sendSignIn {
