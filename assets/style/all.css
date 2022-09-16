@@ -15095,11 +15095,6 @@ a {
 
 .recommendBox .pic {
   position: relative;
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
   overflow: hidden;
   -webkit-transition: 1s;
   -o-transition: 1s;
