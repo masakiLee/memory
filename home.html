@@ -19,7 +19,7 @@
 <body class="bg-light">
   <div class="container">
     <div class="row">
-      <div class="col-xxl-2 pb-3 order-xxl-0 order-0">
+      <div class="col-xxl-2 pb-3 order-xxl-0 order-0 px-2 px-xxl-3">
         <div class="navMain bg-third d-flex flex-column">
           <img src="./assets/images/navUp.svg" alt="navUp" class="navUp d-none d-xxl-block" width="90" height="90">
           <div class="navBar mx-3 mx-xxl-auto mb-0 mb-xxl-10 py-2 d-flex justify-content-between">
@@ -198,12 +198,16 @@
                 class="photo bg-success rounded-3 order-0 order-xxl-2 d-block d-md-none">
         </div>
         <div class="check pt-0 pt-xxl-3 flex-shrink-0">
-            <div class="checkBox px-2 px-md-3 d-flex justify-content-around align-items-center py-2">
-                <div class="icon">
+            <div class="checkBox d-flex justify-content-around align-items-center">
+                <div class="icon position-relative">
                     <a href="#" id="clockOn">
                         <img src="./assets/images/punck.svg" alt="打卡ICON" class="d-none d-md-block">
-                        <img src="./assets/images/punck1.svg" alt="打卡ICON" class="d-block d-md-none">
+                        <img src="./assets/images/punck1.svg" alt="打卡ICON" class="d-block d-md-none ">
                         <p class="text-center text-primary pt-1 fs-4 d-none d-xxl-block">簽到</p>
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle px-1 bg-secondary rounded-circle text-third clockOnIcon">
+                            1
+                        </span>
                     </a>
                 </div>
                 <div class="checkBar mx-3 mx-xxl-0 d-none d-md-block"></div>
