@@ -14,7 +14,7 @@
 ### 首頁 & 單字庫頁面
 ![Imgur](https://i.imgur.com/9bzmgfL.png)
 ![Imgur](https://i.imgur.com/G2Xdzde.png)
-
+![Imgur](https://i.imgur.com/bQa9rpK.png)
 
 
 
