@@ -9,7 +9,7 @@
 ### Site map
 ![Imgur](https://i.imgur.com/0EUUJI1.png)
 
-### Wireframe
+### Layout
 ![Imgur](https://i.imgur.com/cxADIGk.png)
 ### 首頁 & 單字庫頁面
 ![Imgur](https://i.imgur.com/9bzmgfL.png)
